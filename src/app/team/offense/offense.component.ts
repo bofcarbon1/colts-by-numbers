@@ -16,18 +16,18 @@ export class OffenseComponent implements OnInit {
   ngOnInit(): void {
     this.imageObject = [
       { 
-        image: 'http://localhost:4200/team/offense/../../assets/images/stats/team_off_run_stats_graph_img.svg', 
-        thumbImage:'http://localhost:4200/team/offense/../../assets/images/stats/team_off_run_stats_graph_img.svg', 
+        image: '../../assets/images/stats/team_off_run_stats_graph_img.svg', 
+        thumbImage:'../../assets/images/stats/team_off_run_stats_graph_img.svg', 
         title: 'Colts 2019 Team Rushing'
       }, 
       { 
-        image: 'http://localhost:4200/team/offense/../../assets/images/stats/team_off_pass_stats_graph_img.svg', 
-        thumbImage:'http://localhost:4200/team/offense/../../assets/images/stats/team_off_pass_stats_graph_img.svg', 
+        image: '../../assets/images/stats/team_off_pass_stats_graph_img.svg', 
+        thumbImage:'../../assets/images/stats/team_off_pass_stats_graph_img.svg', 
         title: 'Colts 2019 Team Passing'
       },
       {
-        image: 'http://localhost:4200/team/offense/../../assets/images/stats/team_off_fdowns_stats_graph_img.svg', 
-        thumbImage:'http://localhost:4200/team/offense/../../assets/images/stats/team_off_fdowns_stats_graph_img.svg', 
+        image: '../../assets/images/stats/team_off_fdowns_stats_graph_img.svg', 
+        thumbImage:'../../assets/images/stats/team_off_fdowns_stats_graph_img.svg', 
         title: 'Colts 2019 Team First Downs'
       }
     ];
