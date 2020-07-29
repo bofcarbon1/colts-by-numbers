@@ -1,0 +1,28 @@
+/* App level styles imported */
+
+/* Use the responsive table SASS styles */
+@import  "../../styles/responsive/responsive-table.scss";
+
+a {
+    color: white;
+}
+
+.card {
+    background-color: rgb(50, 50, 196);
+    color: white;
+    flex-flow: row;
+    align-items: center;
+    margin: .5%;
+}
+
+.container {
+    margin: .5%;
+    background-color: rgb(82, 76, 76);
+    flex-flow: row;
+    align-self: center;    
+}
+
+th.mat-sort-header-sorted {
+    color: black;
+}
+

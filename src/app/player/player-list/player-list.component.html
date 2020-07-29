@@ -1,0 +1,27 @@
+<mat-toolbar class="mat-toolbar">
+  <mat-toolbar-row>   
+    Colts By Numbers:&nbsp;&nbsp;     
+    <div style="border: 1px solid whitesmoke ">
+      <a routerLink="/home">&nbsp;Home&nbsp;</a>      
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+<div class="card" *ngIf="players.length > 0">
+<h3>&nbsp;&nbsp;Players To Watch</h3>
+  <div class="container">                            
+    <table mat-table class="mat-elevation-z8">      
+      <th mat-header-cell> Name </th> 
+      <th mat-header-cell> Position </th>
+      <th mat-header-cell> Info </th>
+      <tr mat-row *ngFor="let player of players">
+        <td mat-cell>{{player.name}}</td>
+        <td mat-cell>{{player.position}}</td>
+        <td mat-cell><a (click)="onInfoClick(player)">
+          <img  src="../../../assets/images/icons8-info.svg" /></a>
+        </td>            
+      </tr>       
+    </table>
+  </div>
+</div>
+        
+

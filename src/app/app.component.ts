@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
+  ngOnInit(): void {
+    this.router.navigateByUrl('/home');
+  }
+  
   title = 'colts-by-numbers';
+
+  constructor( private router: Router) {
+    
+  } 
+
 }
