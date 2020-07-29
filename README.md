@@ -22,6 +22,12 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Deployment to heroku
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+This app runs on a heroku dyno and here on some notes on that setup
+Added file 'server.js' to root of this Angular app
+Ran 'ng build' to build 'dist/colts-by-numbers' with app executables
+Remote repository in github. Do full git stages and push to repository
+In heroku admin deploy attached dyno to github repository
+Launched app in heroku and verified it ran
+
