@@ -20,6 +20,7 @@ import { PlayerListComponent } from './player/player-list/player-list.component'
 import { TeamComponent } from './team/team.component';
 import { OffenseComponent } from './team/offense/offense.component';
 import { NgImageSliderModule } from 'ng-image-slider';
+import { DefenseComponent } from './team/defense/defense.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { NgImageSliderModule } from 'ng-image-slider';
     PlayerListComponent,
     DialogBodyComponent,
     TeamComponent,
-    OffenseComponent      
+    OffenseComponent,
+    DefenseComponent      
   ],
   imports: [
     BrowserModule,

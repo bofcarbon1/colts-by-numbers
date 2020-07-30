@@ -30,8 +30,7 @@ export class OffenseComponent implements OnInit {
         thumbImage:'../../assets/images/stats/team_off_fdowns_stats_graph_img.svg', 
         title: 'Colts 2019 Team First Downs'
       }
-    ];
-    console.log("this.imageObject: ", this.imageObject)
+    ];    
   }
 
 }

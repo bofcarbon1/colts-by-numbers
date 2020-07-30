@@ -1,0 +1,38 @@
+    <mat-toolbar class="mat-toolbar">
+        <mat-toolbar-row>   
+            Colts By Numbers:&nbsp;&nbsp;     
+            <div style="border: 1px solid whitesmoke ">
+                <a routerLink="/home">&nbsp;Home&nbsp;</a>  
+                <a routerLink="/team">&nbsp;Team&nbsp;</a>   
+                <a routerLink="/team/offense">&nbsp;Offensive Stats&nbsp;</a>       
+            </div>
+        </mat-toolbar-row>
+    </mat-toolbar> 
+    <div flex layout="row"> 
+        <h3>&nbsp;&nbsp;Team Defense Stat Gallery</h3> 
+        <div layout="column">
+            <div class="box1">   
+                <div style="width: 100%; height: 600px; align-content: center; text-align:center;margin:0; padding:0;">
+                    <ng-image-slider #nav          
+                    [images]="imageObject"
+                    [imageSize]="{width: '40%', height: 250}" 
+                    [infinite]="false"
+                    [autoSlide]="1"
+                    slideImage="1"
+                    >
+                    </ng-image-slider>         
+                    <ng-image-slider #nav          
+                    [images]="imageObject"
+                    [imageSize]="{width: '40%', height: 250}" 
+                    [infinite]="false"
+                    [autoSlide]="1"
+                    slideImage="1"
+                    >
+                    </ng-image-slider>
+                </div> 
+            </div>
+            <div class="box2">
+                All rights reserved Brian Quinn
+            </div>
+        </div>
+    </div>
