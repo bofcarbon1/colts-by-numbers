@@ -4,7 +4,11 @@
     <div>
         <h3>{{data.name}} </h3>
         <p>Position: {{data.position}}, Age: {{data.age}}</p>
-        <p>Notes: {{data.bio}}</p>
+        <p>Notes: {{data.note}}</p>
+        <p>KeyStats: </p>
+        <span *ngFor="let keystat of data.keystats">
+            <p>{{keystat.stat}}: {{keystat.value}}</p>
+        </span>
     </div>    
 </mat-dialog-content>
 

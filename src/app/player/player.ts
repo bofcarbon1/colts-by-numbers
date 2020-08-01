@@ -3,6 +3,7 @@ export interface Player {
     name: string;
     position: string;  
     age: string; 
-    bio: string; 
+    note: string; 
+    keystats: [];
   }
   

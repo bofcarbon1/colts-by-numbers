@@ -7,21 +7,67 @@
     </div>
   </mat-toolbar-row>
 </mat-toolbar>
-<div class="card" *ngIf="players.length > 0">
-<h3>&nbsp;&nbsp;Players To Watch</h3>
-  <div class="container">                            
-    <table mat-table class="mat-elevation-z8">      
-      <th mat-header-cell> Name </th> 
-      <th mat-header-cell> Position </th>
-      <th mat-header-cell> Info </th>
-      <tr mat-row *ngFor="let player of players">
-        <td mat-cell>{{player.name}}</td>
-        <td mat-cell>{{player.position}}</td>
-        <td mat-cell><a (click)="onInfoClick(player)">
-          <img  src="../../../assets/images/icons8-info.svg" /></a>
-        </td>            
-      </tr>       
-    </table>
+<div flex layout="row">  
+  <div layout="column" flex>
+    <div class="box1">
+      <div class="container">
+        <h3>&nbsp;&nbsp;Players To Watch</h3>                  
+        <table mat-table class="mat-elevation-z8">      
+          <th mat-header-cell> Name </th> 
+          <th mat-header-cell> Position </th>
+          <th mat-header-cell> Info </th>
+          <tr mat-row *ngFor="let player of players">
+            <td mat-cell>{{player.name}}</td>
+            <td mat-cell>{{player.position}}</td>
+            <td mat-cell><a (click)="onInfoClick(player)">
+              <img  src="../../../assets/images/icons8-info.svg" /></a>
+            </td>            
+          </tr>       
+        </table> 
+      </div> 
+      <div class="container">
+        <h3>&nbsp;&nbsp;Top Numbers</h3>  
+        <table mat-table class="mat-elevation-z8"> 
+          <th mat-header-cell> Name </th> 
+          <th mat-header-cell> Position </th>
+          <th mat-header-cell> Info </th>
+          <tr mat-row *ngFor="let top of tops">
+            <td mat-cell>{{top.name}}</td>
+            <td mat-cell>{{top.position}}</td>
+            <td mat-cell><a (click)="onInfoClick(top)">
+              <img  src="../../../assets/images/icons8-info.svg" /></a>
+            </td>            
+          </tr>
+        </table>
+      </div>
+      <div class="container">
+        <h3>&nbsp;&nbsp;Rookie Watch</h3>  
+        <table mat-table class="mat-elevation-z8">  
+          <th mat-header-cell> Name </th> 
+          <th mat-header-cell> Position </th>
+          <th mat-header-cell> Info </th>
+          <tr mat-row *ngFor="let rookie of rookies">
+            <td mat-cell>{{rookie.name}}</td>
+            <td mat-cell>{{rookie.position}}</td>
+            <td mat-cell><a (click)="onInfoClick(rookie)">
+              <img  src="../../../assets/images/icons8-info.svg" /></a>
+            </td>            
+          </tr>
+        </table>
+      </div>        
+    </div>
+    <div class="box2">
+      <div class="container">
+        <h3>&nbsp;&nbsp;Players & Ratings</h3>     
+        <p>
+          Ratings or rankings are great ways to express numbers. <br/>
+          We'll explore that in this section. Details TBD.
+        </p>
+      </div>
+    </div>
+    <div class="box3">
+      All rights reserved Brian Quinn
+    </div>
   </div>
 </div>
         
