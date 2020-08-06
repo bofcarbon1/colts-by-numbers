@@ -19,8 +19,11 @@ import { HomeComponent } from './home/home.component';
 import { PlayerListComponent } from './player/player-list/player-list.component';
 import { TeamComponent } from './team/team.component';
 import { OffenseComponent } from './team/offense/offense.component';
+import { PlayerOffenseComponent } from './player/offense/offense.component';
 import { NgImageSliderModule } from 'ng-image-slider';
 import { DefenseComponent } from './team/defense/defense.component';
+import { PlayerDefenseComponent } from './player/defense/defense.component';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +33,9 @@ import { DefenseComponent } from './team/defense/defense.component';
     DialogBodyComponent,
     TeamComponent,
     OffenseComponent,
-    DefenseComponent      
+    PlayerOffenseComponent,
+    DefenseComponent,
+    PlayerDefenseComponent      
   ],
   imports: [
     BrowserModule,

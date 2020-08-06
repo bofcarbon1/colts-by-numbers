@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { PlayerListComponent } from '../player/player-list/player-list.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatSort } from '@angular/material/sort';
+import { PlayerOffenseComponent } from './offense/offense.component';
+import { PlayerDefenseComponent } from './defense/defense.component';
 
 @NgModule({
   imports: [
@@ -11,7 +13,9 @@ import { MatSort } from '@angular/material/sort';
     MatSort    
   ],  
   declarations: [
-    PlayerListComponent    
+    PlayerListComponent,
+    PlayerOffenseComponent,
+    PlayerDefenseComponent    
   ],
   providers: [],
   exports: []

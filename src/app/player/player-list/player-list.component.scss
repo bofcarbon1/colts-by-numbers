@@ -9,6 +9,7 @@ a {
 
 h3 {
     font-weight: bold;
+    background-color: lightgray;
 }
 
 div {
@@ -28,7 +29,8 @@ div {
     max-height:75%;
     min-height: 35%;
     //flex:1 1 75%;
-    align-content:  space-between;     
+    align-content:  space-between;    
+    background-color:  rgb(50, 50, 196);   
 }
 
 .box2 {    

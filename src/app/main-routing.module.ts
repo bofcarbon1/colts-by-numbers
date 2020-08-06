@@ -7,6 +7,8 @@ import { TeamComponent } from './team/team.component';
 import { OffenseComponent } from './team/offense/offense.component';
 import { DefenseComponent } from './team/defense/defense.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PlayerOffenseComponent } from './player/offense/offense.component';
+import { PlayerDefenseComponent } from './player/defense/defense.component';
 
 const routes: Routes = [
   //{ path: '', pathMatch: 'full', redirectTo: 'home'},
@@ -14,7 +16,9 @@ const routes: Routes = [
   { path: 'player', component: PlayerListComponent },
   { path: 'team', component: TeamComponent },
   { path: 'team/offense', component: OffenseComponent },
-  { path: 'team/defense', component: DefenseComponent }               
+  { path: 'player/offense', component: PlayerOffenseComponent},
+  { path: 'team/defense', component: DefenseComponent },
+  { path: 'player/defense', component: PlayerDefenseComponent}               
 ];
 
 @NgModule({
