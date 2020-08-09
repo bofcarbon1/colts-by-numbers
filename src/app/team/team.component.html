@@ -4,6 +4,8 @@
       <div style="border: 1px solid whitesmoke ">
         <a routerLink="/home">&nbsp;Home&nbsp;</a> 
         <a routerLink="/player">&nbsp;Players&nbsp;</a>
+        <a routerLink="/team/offense">&nbsp;Team-Offensive&nbsp;</a>
+        <a routerLink="/team/defense">&nbsp;Team-Defensive&nbsp;</a>            
       </div>
     </mat-toolbar-row>
 </mat-toolbar> 
@@ -11,20 +13,16 @@
     <div layout="column" flex>
         <div class="box1">       
             <mat-tab-group headerPosition="below">
-              <mat-tab class="myTab" label="Team Worthy">
+              <mat-tab class="myTab" label="Team Trending">
                 <div class="myTabContent">
-                  <h3>Team Notes:</h3>
-                  <p>Colts 2019 team stats are in.</p>
+                  <h3>Team Numbers Trending:</h3>
+                  <p>Colts 2019 team stats are up. Follow the links above. </p>
                 </div>            
               </mat-tab>
               <mat-tab label="Team Stats"> 
                 <div class="myTabContent">
-                  <h3>Team Stat Gallery Links:</h3> 
-                  <div>
-                    <a mat-button style="background-color: black;" routerLink="/team/offense">&nbsp;Offensive Stats&nbsp;</a>
-                    <mat-divider [inset]='true'>-</mat-divider>
-                    <a mat-button style="background-color: black;" routerLink="/team/defense">&nbsp;Defensive Stats&nbsp;</a>
-                  </div>                
+                  <h3>Team Stats Notes</h3>
+                  <p>2020 stats will replace duplicated 2019 on top row when the regular season starts.  Follow the links above.</p>       
                 </div>  
               </mat-tab>
               <mat-tab label="Team Bonus"> 
@@ -38,7 +36,13 @@
             </mat-tab-group>           
         </div>
         <div class="box2">
-            
+          <div class="container">
+            <h3>&nbsp;&nbsp;Team & Ratings</h3>     
+            <p>
+              Ratings or rankings are great ways to express numbers. <br/>
+              We'll explore that in this section. Details TBD.
+            </p>
+          </div>
         </div>
         <div class="box3">
             All rights reserved Brian Quinn

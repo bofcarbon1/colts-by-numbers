@@ -10,6 +10,7 @@ color: white;
 
 h3 {
   font-weight: bold;
+  background-color: lightgray;
 }
 
 .main-img{
@@ -61,13 +62,15 @@ div {
   background-color: darkgrey;
   color: black;
   border-color: black;
+  width: 100%;
 }
 
 .myTabContent {
   background-color: white;
   color: black;
-  margin: 1%;
-  padding: .5%
+  margin: 2%;
+  padding: 1%;
+  width: 100%;
 }
 
 :host ::ng-deep .mat-tab-label-active {

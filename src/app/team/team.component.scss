@@ -8,6 +8,7 @@ div {
 
 h3 {
   font-weight: bold;
+  background-color: lightgray;
 }
 
 .container {
@@ -42,7 +43,12 @@ h3 {
 .box2 {    
     max-height:75%;
     min-height: 65%;
-    flex:1 1 75%;  
+    flex:1 1 75%; 
+    background-color: white; 
+}
+
+.container {
+  background-color: white;
 }
 
 .box3 {  
