@@ -25,8 +25,13 @@
               <img  src="../../../assets/images/icons8-info.svg" /></a>
             </td>            
           </tr>       
-        </table> 
+        </table>      
       </div> 
+      <div class="contaner">
+        <mat-card flex="100" layout-margin layout-padding layout-align="center stretch" >
+          <img class="main-img" mat-card-image style="width: 200px; height: 200px;" src="../../assets/images/dleonard.jpg" />
+        </mat-card>
+      </div>
       <div class="container">
         <h3>&nbsp;&nbsp;Top Numbers</h3>  
         <table mat-table class="mat-elevation-z8"> 
@@ -40,7 +45,12 @@
               <img  src="../../../assets/images/icons8-info.svg" /></a>
             </td>            
           </tr>
-        </table>
+        </table>      
+      </div>
+      <div class="container">
+        <mat-card flex="100" layout-margin layout-padding layout-align="center stretch" >
+          <img class="main-img" mat-card-image style="width: 200px; height: 200px;" src="../../assets/images/qnelson.jpg" />
+        </mat-card>
       </div>
       <div class="container">
         <h3>&nbsp;&nbsp;Rookie Watch</h3>  
@@ -56,15 +66,33 @@
             </td>            
           </tr>
         </table>
-      </div>        
+      </div>                              
     </div>
     <div class="box2">
       <div class="container">
         <h3>&nbsp;&nbsp;Players & Ratings</h3>     
         <p>
-          Ratings or rankings are great ways to express numbers. <br/>
-          We'll explore that in this section. Details TBD.
-        </p>
+          Hey what's the difference between a passer rating and a QBR? 
+          Check out the math here ...
+           <a style="color: black; font-weight: bold;" href="https://medium.com/@gzil/how-to-calculate-nfl-passer-rating-using-a-formula-in-excel-or-google-sheets-54eb07246d1e">Calculate Passer Rating</a>
+          <br/>
+          Colts fans are wondering just what kind of numbers QB Phillip Rivers will
+          put up this year. 2019 overall numbers not so great for our fearless
+          leader. He did finish 4th overall in passing yards with a whopping 4,615.
+          Had 23 TDs (15th) to 20 INT (30th) ... yikes and a QBR of 48.6 (22nd).
+          If Frank Reich's system works along with one of the best offensive lines
+          in the NFL Rivers overall numbers should vastly improve. Even if the 
+          passing yards come down due to the rushing weapons the Colts have.
+          4000+ total yards again?  Maybe...or maybe not. 
+        </p>        
+        <ng-image-slider #nav          
+        [images]="imageObject"
+        [imageSize]="{width: '25%', height: 200}" 
+        [infinite]="false"
+        [autoSlide]="1"
+        slideImage="1"
+        >   
+        </ng-image-slider>
       </div>
     </div>
     <div class="box3">

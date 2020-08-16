@@ -13,6 +13,10 @@ h3 {
   background-color: lightgray;
 }
 
+p {
+  font-family: 'Open Sans', sans-serif;
+} 
+
 .main-img{
   object-fit: cover; /*this makes the image in src fit to the size specified below*/
   width: 20%; /* Here you can use wherever you want to specify the width and also the height of the <img>*/

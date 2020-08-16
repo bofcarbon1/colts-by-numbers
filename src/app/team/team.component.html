@@ -37,11 +37,31 @@
         </div>
         <div class="box2">
           <div class="container">
-            <h3>&nbsp;&nbsp;Team & Ratings</h3>     
+            <h3>&nbsp;&nbsp;Team Ratings & Rankings</h3>     
             <p>
-              Ratings or rankings are great ways to express numbers. <br/>
-              We'll explore that in this section. Details TBD.
+              NFL Power Rankings come from NFL.com, ESPN or a Fantasy 
+              Football site. Recently on the NFL official site Gil Brandt ranked
+              the Colts 8th in his 
+              <a style="color: black; font-weight: bold;" href="https://www.nfl.com/news/top-10-offensive-defensive-Duos-in-the-nfl-in-2020" >Top 10 Offensive-Devensive Dous of 2020. </a>
+              <br/>
+              Siting Quenton Nelson (120 ypg since joining) 
+              and Darious Leonard (284 tackles, 12 sacks, 7 interceptions, 
+              15 passes defended and 6 forced fumbles) respectfully. You got to 
+              love that right!                
+              <br/><br/>
+              How will the Colts stack up to their division rivals in 2020? 
+              Below from the NFL site the 2019 ratings.
             </p>
+            <div style="width: 100%; height: 600px; align-content: center; text-align:center;margin:0; padding:0;">
+              <ng-image-slider #nav          
+                [images]="imageObject"
+                [imageSize]="{width: '40%', height: 250}" 
+                [infinite]="false"
+                [autoSlide]="1"
+                slideImage="1"
+              >   
+              </ng-image-slider>
+            </div>            
           </div>
         </div>
         <div class="box3">

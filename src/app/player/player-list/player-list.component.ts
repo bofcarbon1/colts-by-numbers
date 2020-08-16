@@ -83,10 +83,33 @@ export class PlayerListComponent implements OnInit {
   ]  
   displayedColumns: string[] = ['name', 'position', 'info'];
   
+  public imageObject;
+
   constructor(private matDialog: MatDialog) { }
 
   ngOnInit(): void {
-     //console.log("this.players: ", this.players);
+    this.imageObject = [
+      { 
+        image: '../../assets/images/privers2.png', 
+        thumbImage:'../../assets/images/privers2.png', 
+        title: 'Phillip Rivers 2020 Colts QB'
+      },
+      { 
+        image: '../../assets/images/stats/rivers_2019_pass_stats_graph_img.svg', 
+        thumbImage:'../../assets/images/stats/rivers_2019_pass_stats_graph_img.svg', 
+        title: 'Rivers 2019 Passing Yards'
+      },
+      { 
+        image: '../../assets/images/stats/rivers_2019_pass_ratings_graph_img.svg', 
+        thumbImage:'../../assets/images/stats/rivers_2019_pass_ratings_graph_img.svg', 
+        title: 'Rivers 2019 Passer Rating'
+      },
+      { 
+        image: '../../assets/images/stats/rivers_2019_qbr_stats_graph_img.svg', 
+        thumbImage:'../../assets/images/stats/rivers_2019_qbr_stats_graph_img.svg', 
+        title: 'Rivers 2019 QBR'
+      }
+    ]
   }
 
   openDialog(selected: Player) {
