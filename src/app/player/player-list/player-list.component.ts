@@ -79,8 +79,17 @@ export class PlayerListComponent implements OnInit {
       {stat: "rushAtt", value: "0"},
       {stat: "rushYds", value: "0"},
       {stat: "td", value: "0"}
+      ], },
+    {id: "2", name: "Dezmon Patmon", position: "WR", age: "22",
+    note: "At Washington State 6-foot-4, 225-pound, 58 receptions for 762 yards (13.1 yards per reception) and eight touchdowns, finishing fourth in the Pac-12 in receiving scores.", 
+    keystats: [
+      {stat: "rec", value: "0"},
+      {stat: "recYds", value: "0"}, 
+      {stat: "avg", value: "0"},
+      {stat: "lng", value: "0"},
+      {stat: "td", value: "0"}
       ], }
-  ]  
+  ]    
   displayedColumns: string[] = ['name', 'position', 'info'];
   
   public imageObject;
