@@ -14,7 +14,9 @@ h3 {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-size: 1.5em;
+  margin: 1%;
 } 
 
 .main-img{
@@ -65,16 +67,14 @@ div {
 .myTab {
   background-color: darkgrey;
   color: black;
-  border-color: black;
-  width: 100%;
+  border-color: black;  
 }
 
 .myTabContent {
   background-color: white;
   color: black;
   margin: 2%;
-  padding: 1%;
-  width: 100%;
+  padding: 1%;  
 }
 
 :host ::ng-deep .mat-tab-label-active {
