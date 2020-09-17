@@ -14,14 +14,14 @@ export class TeamComponent implements OnInit {
   ngOnInit(): void {
     this.imageObject = [
       { 
-        image: '../../assets/images/stats/team_off_div_passrtngs_bar_img.svg', 
-        thumbImage:'../../assets/images/stats/team_off_div_passrtngs_bar_img.svg', 
-        title: 'AFC South 2019 Team Passer Rating'
+        image: '../../assets/images/stats/team_off_div_2020_pass_rate_bar_img.svg', 
+        thumbImage:'../../assets/images/stats/team_off_div_2020_pass_rate_bar_img.svg', 
+        title: 'AFC South 2020 Team Passer Rating'
       },
       { 
-        image: '../../assets/images/stats/team_off_div_rushyds_bar_img.svg', 
-        thumbImage:'../../assets/images/stats/team_off_div_rushyds_bar_img.svg', 
-        title: 'AFC South 2019 Team Rushing Yards'
+        image: '../../assets/images/stats/team_off_div_2020_rush_yds_bar_img.svg', 
+        thumbImage:'../../assets/images/stats/team_off_div_2020_rush_yds_bar_img.svg', 
+        title: 'AFC South 2020 Team Rushing Yards'
       }
     ]
   }

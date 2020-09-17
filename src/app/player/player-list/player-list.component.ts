@@ -104,9 +104,9 @@ export class PlayerListComponent implements OnInit {
         title: 'Phillip Rivers 2020 Colts QB'
       },
       { 
-        image: '../../assets/images/stats/rivers_2019_pass_stats_graph_img.svg', 
-        thumbImage:'../../assets/images/stats/rivers_2019_pass_stats_graph_img.svg', 
-        title: 'Rivers 2019 Passing Yards'
+        image: '../../assets/images/stats/rivers_2020_pass_ratings_graph_img.svg', 
+        thumbImage:'../../assets/images/stats/rivers_2020_pass_ratings_graph_img.svg', 
+        title: 'Rivers 2020 Passer Rating'
       },
       { 
         image: '../../assets/images/stats/rivers_2019_pass_ratings_graph_img.svg', 
