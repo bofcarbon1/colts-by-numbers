@@ -19,26 +19,23 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Phillip Rivers", position: "QB", age: "38", 
       note: "2018 Pro Bowl selection played previously with the San Diego Chargers. New adventures with the Colts.",
       keystats: [
-        {stat: "cmp", value: "66%"}, 
-        {stat: "passYds", value: "4,615"}, 
-        {stat: "ints", value: "20"},
-        {stat: "tds", value: "23"},
-        {stat: "rtng", value: "88.5"}
+        {stat: "cmp", value: "78.3%"}, 
+        {stat: "passYds", value: "363"}, 
+        {stat: "ints", value: "2"},
+        {stat: "tds", value: "1"},
+        {stat: "rtng", value: "88.7"},
+        {stat: "QBR", value: "56.2"}
         ], },
-      {id: "1", name: "TY Hilton", position: "WR", age: "30",
-      note: "Multiple All Pro mostly with Indianapolis Colts. Looking to bounce back from injuries in 2019. ",
+      {id: "1", name: "Denico Autry", position: "DE", age: "30",
+      note: "7th season in the NFL. Starting out strong in 2020 with 2 sacks in game 1. ",
       keystats: [
-        {stat: "rec", value: "45"}, 
-        {stat: "recYds", value: "501"},
-        {stat: "avg", value: "11"},
-        {stat: "lng", value: "35"},
-        {stat: "td", value: "5"}
+        {stat: "sacks", value: "2"}        
         ], },
       {id: "2", name: "Deforest Buckner", position: "DB", age: "27",
       note: "Former All Pro with San Fransisco 49ers. Acquired in deal for 2020 1st round draft pick", 
       keystats: [
-        {stat: "takles", value: "62"},
-        {stat: "sacks", value: "7.5"},
+        {stat: "takles", value: "6"},
+        {stat: "sacks", value: "0"},
         {stat: "ints", value: "0"}
         ], }
     ];
@@ -46,38 +43,45 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Darius Leonard", position: "DB", age: "25",
       note: "Former Defensive Rookie of the Year and All Pro. Always bringing it.",
       keystats: [
-        {stat: "takles", value: "71"},
-        {stat: "sacks", value: "5"},
-        {stat: "ints", value: "5"}
+        {stat: "takles", value: "9"},
+        {stat: "sacks", value: "0"},
+        {stat: "ints", value: "0"}
         ], },
-      {id: "1", name: "Justin Houston", position: "DE", age: "31",
-      note: "Led the team with 11 sacks in 2019. Expect another productive season from him.", 
+      {id: "1", name: "Parris Campbell", position: "WR", age: "23",
+        note: "2nd season with Indianapolis Colts. Looking good after injuries in 2019. ",
+        keystats: [
+          {stat: "rec", value: "6"}, 
+          {stat: "recYds", value: "71"},
+          {stat: "avg", value: "11.8"},
+          {stat: "lng", value: "21"},
+          {stat: "td", value: "0"}
+          ], },
+      {id: "2", name: "Anthony Walker", position: "LB", age: "25",
+      note: "2019 leader in tackles is expected to be right beside Darius Leonard in numbers as well as on the field.", 
       keystats: [
-        {stat: "sacks", value: "11"}
-        ], },
-      {id: "2", name: "Marlin Mack", position: "RB", age: "24",
-      note: "In 2019 1000+ yard season. Looks to have another promising season", 
-      keystats: [
-        {stat: "rushAtt", value: "247"},
-        {stat: "rushYds", value: "1,091"},
-        {stat: "td", value: "8"}
-        ], }    
+        {stat: "takles", value: "7"},
+        {stat: "sacks", value: "0"},
+        {stat: "ints", value: "0"}
+        ], }        
     ];
   rookies = [
     {id: "0", name: "Michael Pittman Jr.", position: "WR", age: "22",
     note: "At USC second team All-American standing tall at 6.4.", 
     keystats: [
-      {stat: "rec", value: "0"},
-      {stat: "recYds", value: "0"}, 
-      {stat: "avg", value: "0"},
-      {stat: "lng", value: "0"},
+      {stat: "rec", value: "2"},
+      {stat: "recYds", value: "10"}, 
+      {stat: "avg", value: "5"},
+      {stat: "lng", value: "5"},
       {stat: "td", value: "0"}
       ], },
     {id: "1", name: "Jonathon Taylor", position: "RB", age: "21",
     note: "At Wisconson No. 6 all time rusher in the NCAA and first player to rush for more than 6,000 yards in a three-year span.", 
     keystats: [
-      {stat: "rushAtt", value: "0"},
-      {stat: "rushYds", value: "0"},
+      {stat: "rushAtt", value: "9"},
+      {stat: "rushYds", value: "22"},
+      {stat: "rec", value: "6"},
+      {stat: "recYds", value: "67"},
+      {stat: "lng", value: "35"},
       {stat: "td", value: "0"}
       ], },
     {id: "2", name: "Dezmon Patmon", position: "WR", age: "22",
