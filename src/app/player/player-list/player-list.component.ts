@@ -19,23 +19,24 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Phillip Rivers", position: "QB", age: "38", 
       note: "2018 Pro Bowl selection played previously with the San Diego Chargers. New adventures with the Colts.",
       keystats: [
-        {stat: "cmp", value: "77.5%"}, 
-        {stat: "passYds", value: "577"}, 
+        {stat: "cmp", value: "78%"}, 
+        {stat: "passYds", value: "794"}, 
         {stat: "ints", value: "3"},
-        {stat: "tds", value: "2"},
-        {stat: "rtng", value: "92.3"},
-        {stat: "QBR", value: "46.2"}
+        {stat: "tds", value: "3"},
+        {stat: "rtng", value: "99.9"},
+        {stat: "QBR", value: "57.5"}
         ], },
-      {id: "1", name: "Denico Autry", position: "DE", age: "30",
-      note: "7th season in the NFL. Starting out strong in 2020 with 2 sacks in game 1. ",
+      {id: "1", name: "Xavier Rhodes", position: "CB", age: "30",
+      note: "The once Pro Bowl player had 2 big interceptions against the Jets in game 3. ",
       keystats: [
-        {stat: "sacks", value: "2"}        
+        {stat: "interceptions", value: "2"}        
         ], },
       {id: "2", name: "Deforest Buckner", position: "DB", age: "27",
       note: "Former All Pro with San Fransisco 49ers. Acquired in deal for 2020 1st round draft pick", 
       keystats: [
-        {stat: "takles", value: "6"},
+        {stat: "takles", value: "15"},
         {stat: "sacks", value: "1.5"},
+        {stat: "assists", value: "6"},
         {stat: "ints", value: "0"}
         ], }
     ];
@@ -43,50 +44,52 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Darius Leonard", position: "DB", age: "25",
       note: "Former Defensive Rookie of the Year and All Pro. Always bringing it.",
       keystats: [
-        {stat: "takles", value: "16"},
+        {stat: "takles", value: "27"},
+        {stat: "assists", value: "10" },
         {stat: "sacks", value: "0"},
         {stat: "ints", value: "0"}
         ], },
       {id: "1", name: "Moe Allie-Cox", position: "TE", age: "27",
         note: "3rd season with the Colts. Stepping up for Jack Doyle/Trey Burton and making a strong argument for a TE1. ",
         keystats: [
-          {stat: "rec", value: "7"}, 
-          {stat: "recYds", value: "131"},
-          {stat: "avg", value: "18.7"},
-          {stat: "lng", value: "33"},
-          {stat: "td", value: "0"}
+          {stat: "rec", value: "10"}, 
+          {stat: "recYds", value: "181"},
+          {stat: "avg", value: "18.1"},
+          {stat: "lng", value: "45"},
+          {stat: "td", value: "1"}
           ], },
-      {id: "2", name: "Anthony Walker", position: "LB", age: "25",
-      note: "2019 leader in tackles is expected to be right beside Darius Leonard in numbers as well as on the field.", 
+      {id: "2", name: "Khari Willis", position: "S", age: "24",
+      note: "His impact on the field is undeniable in this much improved defense", 
       keystats: [
-        {stat: "takles", value: "8"},
+        {stat: "tackles", value: "14"},
+        {stat: "assists", value: "4"},
         {stat: "sacks", value: "0"},
-        {stat: "ints", value: "0"}
+        {stat: "ints", value: "1"}
         ], }        
     ];
   rookies = [
     {id: "0", name: "Michael Pittman Jr.", position: "WR", age: "22",
     note: "At USC second team All-American standing tall at 6.4.", 
     keystats: [
-      {stat: "rec", value: "6"},
-      {stat: "recYds", value: "47"}, 
-      {stat: "avg", value: "7.5"},
+      {stat: "rec", value: "12"},
+      {stat: "recYds", value: "73"}, 
+      {stat: "avg", value: "8.1"},
       {stat: "lng", value: "16"},
       {stat: "td", value: "0"}
       ], },
     {id: "1", name: "Jonathon Taylor", position: "RB", age: "21",
     note: "At Wisconson No. 6 all time rusher in the NCAA and first player to rush for more than 6,000 yards in a three-year span.", 
     keystats: [
-      {stat: "rushAtt", value: "35"},
-      {stat: "rushYds", value: "123"},
+      {stat: "rushAtt", value: "48"},
+      {stat: "rushYds", value: "182"},
       {stat: "avg", value: "3.5"},
-      {stat: "lng", value: "13"},
-      {stat: "td", value: "1"}
+      {stat: "lng", value: "16"},
+      {stat: "td", value: "2"}
       ], },
-    {id: "2", name: "Julian Blackmon", position: "Safety", age: "22",
+    {id: "2", name: "Julian Blackmon", position: "S", age: "22",
     note: "Out of Utah, 6.0 187-pound, has been thrown into play earlier than expected due to the loss of Malik Hooker.", 
     keystats: [
-      {stat: "solo", value: "2"},
+      {stat: "tackles", value: "3"},
       {stat: "FF", value: "0"}, 
       {stat: "int", value: "0"},
       {stat: "pd", value: "2"}
@@ -114,12 +117,7 @@ export class PlayerListComponent implements OnInit {
         image: '../../assets/images/stats/rivers_2019_pass_ratings_graph_img.svg', 
         thumbImage:'../../assets/images/stats/rivers_2019_pass_ratings_graph_img.svg', 
         title: 'Rivers 2019 Passer Rating'
-      },
-      { 
-        image: '../../assets/images/stats/rivers_2019_qbr_stats_graph_img.svg', 
-        thumbImage:'../../assets/images/stats/rivers_2019_qbr_stats_graph_img.svg', 
-        title: 'Rivers 2019 QBR'
-      }
+      }     
     ]
   }
 
