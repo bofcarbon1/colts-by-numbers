@@ -20,23 +20,24 @@ export class PlayerListComponent implements OnInit {
       note: "2018 Pro Bowl selection played previously with the San Diego Chargers. New adventures with the Colts.",
       keystats: [
         {stat: "cmp", value: "78%"}, 
-        {stat: "passYds", value: "794"}, 
+        {stat: "passYds", value: "984"}, 
         {stat: "ints", value: "3"},
-        {stat: "tds", value: "3"},
-        {stat: "rtng", value: "99.9"},
-        {stat: "QBR", value: "57.5"}
+        {stat: "tds", value: "4"},
+        {stat: "rtng", value: "97.3"},
+        {stat: "QBR", value: "64.4"}
         ], },
       {id: "1", name: "Xavier Rhodes", position: "CB", age: "30",
       note: "The once Pro Bowl player had 2 big interceptions against the Jets in game 3. ",
       keystats: [
-        {stat: "interceptions", value: "2"}        
+        {stat: "int", value: "2"},
+        {stat: "pd", value: "5"}        
         ], },
       {id: "2", name: "Deforest Buckner", position: "DB", age: "27",
       note: "Former All Pro with San Fransisco 49ers. Acquired in deal for 2020 1st round draft pick", 
       keystats: [
-        {stat: "takles", value: "15"},
+        {stat: "takles", value: "18"},
         {stat: "sacks", value: "1.5"},
-        {stat: "assists", value: "6"},
+        {stat: "assists", value: "8"},
         {stat: "ints", value: "0"}
         ], }
     ];
@@ -50,49 +51,48 @@ export class PlayerListComponent implements OnInit {
         {stat: "ints", value: "0"}
         ], },
       {id: "1", name: "Moe Allie-Cox", position: "TE", age: "27",
-        note: "3rd season with the Colts. Stepping up for Jack Doyle/Trey Burton and making a strong argument for a TE1. ",
+        note: "Another TD in game 4. Keeps making a strong argument for TE1.",
         keystats: [
-          {stat: "rec", value: "10"}, 
-          {stat: "recYds", value: "181"},
-          {stat: "avg", value: "18.1"},
+          {stat: "rec", value: "11"}, 
+          {stat: "recYds", value: "194"},
+          {stat: "avg", value: "17.6"},
           {stat: "lng", value: "45"},
-          {stat: "td", value: "1"}
+          {stat: "td", value: "2"}
           ], },
-      {id: "2", name: "Khari Willis", position: "S", age: "24",
-      note: "His impact on the field is undeniable in this much improved defense", 
+      {id: "2", name: "Anthony Walker", position: "LB", age: "25",
+      note: "Always dependable on defense", 
       keystats: [
-        {stat: "tackles", value: "14"},
-        {stat: "assists", value: "4"},
+        {stat: "tackles", value: "25"},
+        {stat: "assists", value: "5"},
         {stat: "sacks", value: "0"},
-        {stat: "ints", value: "1"}
+        {stat: "ints", value: "0"}
         ], }        
     ];
   rookies = [
-    {id: "0", name: "Michael Pittman Jr.", position: "WR", age: "22",
-    note: "At USC second team All-American standing tall at 6.4.", 
+    {id: "0", name: "Rodrigo Blakenship", position: "K", age: "23",
+    note: "At Georgia undrafted free agent nicknamed Hot Rod", 
     keystats: [
-      {stat: "rec", value: "12"},
-      {stat: "recYds", value: "73"}, 
-      {stat: "avg", value: "8.1"},
-      {stat: "lng", value: "16"},
-      {stat: "td", value: "0"}
+      {stat: "fg%", value: "85.7"},
+      {stat: "xp%", value: "100.0"}, 
+      {stat: "lng", value: "44"},
+      {stat: "pts", value: "45"}      
       ], },
     {id: "1", name: "Jonathon Taylor", position: "RB", age: "21",
     note: "At Wisconson No. 6 all time rusher in the NCAA and first player to rush for more than 6,000 yards in a three-year span.", 
     keystats: [
-      {stat: "rushAtt", value: "48"},
-      {stat: "rushYds", value: "182"},
-      {stat: "avg", value: "3.5"},
+      {stat: "rushAtt", value: "65"},
+      {stat: "rushYds", value: "250"},
+      {stat: "avg", value: "3.8"},
       {stat: "lng", value: "16"},
       {stat: "td", value: "2"}
       ], },
     {id: "2", name: "Julian Blackmon", position: "S", age: "22",
     note: "Out of Utah, 6.0 187-pound, has been thrown into play earlier than expected due to the loss of Malik Hooker.", 
     keystats: [
-      {stat: "tackles", value: "3"},
+      {stat: "tackles", value: "4"},
       {stat: "FF", value: "0"}, 
-      {stat: "int", value: "0"},
-      {stat: "pd", value: "2"}
+      {stat: "int", value: "1"},
+      {stat: "pd", value: "5"}
       ], }
   ]    
   displayedColumns: string[] = ['name', 'position', 'info'];
