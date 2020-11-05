@@ -20,23 +20,23 @@ export class PlayerListComponent implements OnInit {
       note: "2018 Pro Bowl selection played previously with the San Diego Chargers. New adventures with the Colts.",
       keystats: [
         {stat: "cmp", value: "69.7%"}, 
-        {stat: "passYds", value: "1,598"}, 
+        {stat: "passYds", value: "1,860"}, 
         {stat: "ints", value: "6"},
-        {stat: "tds", value: "7"},
-        {stat: "rtng", value: "93"},
-        {stat: "QBR", value: "64.7"}
+        {stat: "tds", value: "10"},
+        {stat: "rtng", value: "97.3"},
+        {stat: "QBR", value: "65.5"}
         ], },
       {id: "1", name: "Xavier Rhodes", position: "CB", age: "30",
-      note: "The once Pro Bowl player had 2 big interceptions against the Jets in game 3. ",
+      note: "The once Pro Bowl player tops amongst players in the NFL with QB hits in 2020. ",
       keystats: [
         {stat: "int", value: "2"},
-        {stat: "solo", value: "10"},
-        {stat: "pd", value: "5"}        
+        {stat: "solo", value: "13"},
+        {stat: "pd", value: "8"}        
         ], },
       {id: "2", name: "Deforest Buckner", position: "DB", age: "27",
       note: "Former All Pro with San Fransisco 49ers. Acquired in deal for 2020 1st round draft pick", 
       keystats: [
-        {stat: "takles", value: "28"},
+        {stat: "takles", value: "29"},
         {stat: "sacks", value: "2.5"},
         {stat: "assists", value: "17"},
         {stat: "ints", value: "0"}
@@ -46,24 +46,21 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Darius Leonard", position: "DB", age: "25",
       note: "Former Defensive Rookie of the Year and All Pro. Always bringing it.",
       keystats: [
-        {stat: "takles", value: "27"},
+        {stat: "takles", value: "36"},
         {stat: "assists", value: "10" },
-        {stat: "sacks", value: "0"},
+        {stat: "sacks", value: "1"},
         {stat: "ints", value: "0"}
         ], },
-      {id: "1", name: "TY Hilton", position: "WR", age: "30",
-        note: "Four straight Pro Bowls from 2014 to 2018.",
+      {id: "1", name: "Denico Autry", position: "DE", age: "30",
+        note: "7th season in the NFL.",
         keystats: [
-          {stat: "rec", value: "20"}, 
-          {stat: "recYds", value: "242"},
-          {stat: "avg", value: "12.1"},
-          {stat: "lng", value: "28"},
-          {stat: "td", value: "0"}
+          {stat: "sacks", value: "4"}, 
+          {stat: "solo", value: "12"}          
           ], },
       {id: "2", name: "Anthony Walker", position: "LB", age: "25",
       note: "Always dependable on defense", 
       keystats: [
-        {stat: "tackles", value: "39"},
+        {stat: "tackles", value: "40"},
         {stat: "assists", value: "7"},
         {stat: "sacks", value: "0"},
         {stat: "ints", value: "1"}
@@ -74,25 +71,25 @@ export class PlayerListComponent implements OnInit {
     note: "At Georgia undrafted free agent nicknamed Hot Rod", 
     keystats: [
       {stat: "fg%", value: "88.9"},
-      {stat: "xp%", value: "100.0"}, 
+      {stat: "xp%", value: "90.0"}, 
       {stat: "lng", value: "44"},
-      {stat: "pts", value: "63"}      
+      {stat: "pts", value: "66"}      
       ], },
     {id: "1", name: "Jonathon Taylor", position: "RB", age: "21",
     note: "At Wisconson No. 6 all time rusher in the NCAA and first player to rush for more than 6,000 yards in a three-year span.", 
     keystats: [
-      {stat: "rushAtt", value: "89"},
-      {stat: "rushYds", value: "367"},
-      {stat: "avg", value: "4.1"},
+      {stat: "rushAtt", value: "100"},
+      {stat: "rushYds", value: "389"},
+      {stat: "avg", value: "3.9"},
       {stat: "lng", value: "21"},
       {stat: "td", value: "3"}
       ], },
     {id: "2", name: "Julian Blackmon", position: "S", age: "22",
     note: "Out of Utah, 6.0 187-pound, has been thrown into play earlier than expected due to the loss of Malik Hooker.", 
     keystats: [
-      {stat: "tackles", value: "10"},
+      {stat: "tackles", value: "14"},
       {stat: "FF", value: "0"},
-      {stat: "solo", value: "9"}, 
+      {stat: "solo", value: "12"}, 
       {stat: "int", value: "2"},
       {stat: "pd", value: "6"}
       ], }
