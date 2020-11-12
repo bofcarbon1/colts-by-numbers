@@ -20,25 +20,24 @@ export class PlayerListComponent implements OnInit {
       note: "2018 Pro Bowl selection played previously with the San Diego Chargers. New adventures with the Colts.",
       keystats: [
         {stat: "cmp", value: "69.7%"}, 
-        {stat: "passYds", value: "1,860"}, 
-        {stat: "ints", value: "6"},
+        {stat: "passYds", value: "2,087"}, 
+        {stat: "ints", value: "7"},
         {stat: "tds", value: "10"},
-        {stat: "rtng", value: "97.3"},
-        {stat: "QBR", value: "65.5"}
+        {stat: "rtng", value: "91.9"},
+        {stat: "QBR", value: "62.2"}
         ], },
-      {id: "1", name: "Xavier Rhodes", position: "CB", age: "30",
-      note: "The once Pro Bowl player tops amongst players in the NFL with QB hits in 2020. ",
+      {id: "1", name: "Grover Stewart", position: "DT", age: "30",
+      note: "PFF 90s Club with a 90.6 rating in week 9. ",
       keystats: [
-        {stat: "int", value: "2"},
-        {stat: "solo", value: "13"},
-        {stat: "pd", value: "8"}        
+        {stat: "int", value: "0"},
+        {stat: "solo", value: "21"}                
         ], },
       {id: "2", name: "Deforest Buckner", position: "DB", age: "27",
       note: "Former All Pro with San Fransisco 49ers. Acquired in deal for 2020 1st round draft pick", 
       keystats: [
-        {stat: "takles", value: "29"},
+        {stat: "takles", value: "34"},
         {stat: "sacks", value: "2.5"},
-        {stat: "assists", value: "17"},
+        {stat: "assists", value: "15"},
         {stat: "ints", value: "0"}
         ], }
     ];
@@ -46,22 +45,23 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Darius Leonard", position: "DB", age: "25",
       note: "Former Defensive Rookie of the Year and All Pro. Always bringing it.",
       keystats: [
-        {stat: "takles", value: "36"},
-        {stat: "assists", value: "10" },
+        {stat: "takles", value: "51"},
+        {stat: "assists", value: "14" },
         {stat: "sacks", value: "1"},
         {stat: "ints", value: "0"}
         ], },
       {id: "1", name: "Denico Autry", position: "DE", age: "30",
         note: "7th season in the NFL.",
         keystats: [
-          {stat: "sacks", value: "4"}, 
-          {stat: "solo", value: "12"}          
+          {stat: "sacks", value: "5"}, 
+          {stat: "assists", value: "7" },
+          {stat: "solo", value: "13"}          
           ], },
-      {id: "2", name: "Anthony Walker", position: "LB", age: "25",
-      note: "Always dependable on defense", 
+      {id: "2", name: "Bobby Okereke", position: "LB", age: "24",
+      note: "Establishing himself as effective force on defense.", 
       keystats: [
-        {stat: "tackles", value: "40"},
-        {stat: "assists", value: "7"},
+        {stat: "tackles", value: "49"},
+        {stat: "assists", value: "11"},
         {stat: "sacks", value: "0"},
         {stat: "ints", value: "1"}
         ], }        
@@ -70,26 +70,26 @@ export class PlayerListComponent implements OnInit {
     {id: "0", name: "Rodrigo Blakenship", position: "K", age: "23",
     note: "At Georgia undrafted free agent nicknamed Hot Rod", 
     keystats: [
-      {stat: "fg%", value: "88.9"},
-      {stat: "xp%", value: "90.0"}, 
+      {stat: "fg%", value: "89.5"},
+      {stat: "xp%", value: "90.5"}, 
       {stat: "lng", value: "44"},
-      {stat: "pts", value: "66"}      
+      {stat: "pts", value: "70"}      
       ], },
     {id: "1", name: "Jonathon Taylor", position: "RB", age: "21",
     note: "At Wisconson No. 6 all time rusher in the NCAA and first player to rush for more than 6,000 yards in a three-year span.", 
     keystats: [
-      {stat: "rushAtt", value: "100"},
-      {stat: "rushYds", value: "389"},
+      {stat: "rushAtt", value: "106"},
+      {stat: "rushYds", value: "416"},
       {stat: "avg", value: "3.9"},
       {stat: "lng", value: "21"},
-      {stat: "td", value: "3"}
+      {stat: "td", value: "4"}
       ], },
     {id: "2", name: "Julian Blackmon", position: "S", age: "22",
     note: "Out of Utah, 6.0 187-pound, has been thrown into play earlier than expected due to the loss of Malik Hooker.", 
     keystats: [
-      {stat: "tackles", value: "14"},
+      {stat: "tackles", value: "17"},
       {stat: "FF", value: "0"},
-      {stat: "solo", value: "12"}, 
+      {stat: "solo", value: "15"}, 
       {stat: "int", value: "2"},
       {stat: "pd", value: "6"}
       ], }
