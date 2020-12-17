@@ -20,25 +20,25 @@ export class PlayerListComponent implements OnInit {
       note: "2018 Pro Bowl selection played previously with the San Diego Chargers. New adventures with the Colts.",
       keystats: [
         {stat: "cmp", value: "68.1%"}, 
-        {stat: "passYds", value: "3,263"}, 
+        {stat: "passYds", value: "3,507"}, 
         {stat: "ints", value: "9"},
-        {stat: "tds", value: "18"},
-        {stat: "rtng", value: "96"},
-        {stat: "QBR", value: "63"}
+        {stat: "tds", value: "20"},
+        {stat: "rtng", value: "97.4"},
+        {stat: "QBR", value: "64.6"}
         ], },
       {id: "1", name: "Kenny Moore II", position: "CB", age: "25",
       note: "Every season exceptional play on defense.",
       keystats: [
-        {stat: "int", value: "3"},
-        {stat: "tackles", value: "54"}, 
-        {stat: "solo", value: "48"}                
+        {stat: "int", value: "4"},
+        {stat: "tackles", value: "59"}, 
+        {stat: "solo", value: "53"}                
         ], },
       {id: "2", name: "Deforest Buckner", position: "DB", age: "27",
       note: "Former All Pro with San Fransisco 49ers. Acquired in deal for 2020 1st round draft pick", 
       keystats: [
-        {stat: "takles", value: "44"},
+        {stat: "takles", value: "48"},
         {stat: "sacks", value: "4.5"},
-        {stat: "solo", value: "27"},
+        {stat: "solo", value: "30"},
         {stat: "fr", value: "1"}
         ], }
     ];
@@ -46,50 +46,50 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Darius Leonard", position: "DB", age: "25",
       note: "Former Defensive Rookie of the Year and All Pro. Looking All Pro again in 2020.",
       keystats: [
-        {stat: "takles", value: "86"},
-        {stat: "solo", value: "57" },
+        {stat: "takles", value: "97"},
+        {stat: "solo", value: "65" },
         {stat: "sacks", value: "2"}        
         ], },
       {id: "1", name: "Justin Houston", position: "DE", age: "31",
         note: "3 sacks against the Texans in game 12.",
         keystats: [
           {stat: "sacks", value: "7.5"}, 
-          {stat: "tackles", value: "20" },
+          {stat: "tackles", value: "21" },
           {stat: "solo", value: "16"}          
           ], },
       {id: "2", name: "TY Hilton", position: "WR", age: "31",
       note: "Former Pro Bowler starting to click with Phillip Rivers.", 
       keystats: [
-        {stat: "rec", value: "41"},
-        {stat: "yds", value: "518"},
-        {stat: "tds", value: "2"},
-        {stat: "avg", value: "12.6"}        
+        {stat: "rec", value: "46"},
+        {stat: "yds", value: "604"},
+        {stat: "tds", value: "4"},
+        {stat: "avg", value: "13.1"}        
         ], }        
     ];
   rookies = [
-    {id: "0", name: "Rodrigo Blakenship", position: "K", age: "23",
-    note: "At Georgia undrafted free agent nicknamed Hot Rod", 
+    {id: "0", name: "Jonathon Taylor", position: "RB", age: "23",
+    note: "Has emerged as a solid starting RB in the absense of Marlon Mack.", 
     keystats: [
-      {stat: "fg%", value: "88.9"},
-      {stat: "xp%", value: "93.8"}, 
-      {stat: "lng", value: "44"},
-      {stat: "pts", value: "102"}      
+      {stat: "att", value: "168"},
+      {stat: "yds", value: "759"}, 
+      {stat: "tds", value: "6"},
+      {stat: "lng", value: "62"}      
       ], },
     {id: "1", name: "Michael Pittman", position: "WR", age: "21",
     note: "Out of USC returned from the IR got 101 receving yards against the Titans in game 9.", 
     keystats: [
-      {stat: "rec", value: "31"},
-      {stat: "recYds", value: "376"},
-      {stat: "avg", value: "12.1"},
+      {stat: "rec", value: "33"},
+      {stat: "recYds", value: "418"},
+      {stat: "avg", value: "12.7"},
       {stat: "lng", value: "45"},
       {stat: "td", value: "1"}
       ], },
     {id: "2", name: "Julian Blackmon", position: "S", age: "22",
     note: "Out of Utah, 6.0 187-pound, has been thrown into play earlier than expected due to the loss of Malik Hooker.", 
     keystats: [
-      {stat: "tackles", value: "32"},
+      {stat: "tackles", value: "34"},
       {stat: "FF", value: "1"},
-      {stat: "solo", value: "27"}, 
+      {stat: "solo", value: "28"}, 
       {stat: "int", value: "2"},
       {stat: "pd", value: "6"}
       ], }
