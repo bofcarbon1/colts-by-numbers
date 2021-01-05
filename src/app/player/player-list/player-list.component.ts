@@ -19,25 +19,26 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Phillip Rivers", position: "QB", age: "38", 
       note: "2018 Pro Bowl selection played previously with the San Diego Chargers. New adventures with the Colts.",
       keystats: [
-        {stat: "cmp", value: "68.3%"}, 
-        {stat: "passYds", value: "4005"}, 
-        {stat: "ints", value: "10"},
-        {stat: "tds", value: "23"},
-        {stat: "rtng", value: "98"}       
+        {stat: "cmp", value: "68%"}, 
+        {stat: "passYds", value: "4169"}, 
+        {stat: "ints", value: "11"},
+        {stat: "tds", value: "24"},
+        {stat: "rtng", value: "97"},
+        {stat: "qbr", value: "62.7"}       
         ], },
       {id: "1", name: "Kenny Moore II", position: "CB", age: "25",
       note: "Every season exceptional play on defense.",
       keystats: [
         {stat: "int", value: "4"},
-        {stat: "tackles", value: "72"}, 
-        {stat: "solo", value: "63"}                
+        {stat: "tackles", value: "80"}, 
+        {stat: "solo", value: "68"}                
         ], },
       {id: "2", name: "Deforest Buckner", position: "DB", age: "27",
       note: "Former All Pro with San Fransisco 49ers. Acquired in deal for 2020 1st round draft pick", 
       keystats: [
-        {stat: "takles", value: "54"},
-        {stat: "sacks", value: "7.5"},
-        {stat: "solo", value: "34"},
+        {stat: "takles", value: "58"},
+        {stat: "sacks", value: "9.5"},
+        {stat: "solo", value: "37"},
         {stat: "fr", value: "1"},
         {stat: "ff", value: "2"}
         ], }
@@ -46,51 +47,53 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Darius Leonard", position: "DB", age: "25",
       note: "Former Defensive Rookie of the Year and All Pro. Looking All Pro again in 2020.",
       keystats: [
-        {stat: "takles", value: "122"},
-        {stat: "solo", value: "78" },
-        {stat: "sacks", value: "2"}        
+        {stat: "takles", value: "132"},
+        {stat: "solo", value: "86" },
+        {stat: "sacks", value: "3"}, 
+        {stat: "ff", value: "3"},
+        {stat: "fr", value: "2"}      
         ], },
       {id: "1", name: "Justin Houston", position: "DE", age: "31",
         note: "3 sacks against the Texans in game 12.",
         keystats: [
-          {stat: "sacks", value: "7.5"}, 
-          {stat: "tackles", value: "23" },
-          {stat: "solo", value: "18"}          
+          {stat: "sacks", value: "8"}, 
+          {stat: "tackles", value: "25" },
+          {stat: "solo", value: "19"}          
           ], },
       {id: "2", name: "TY Hilton", position: "WR", age: "31",
       note: "Former Pro Bowler starting to click with Phillip Rivers.", 
       keystats: [
-        {stat: "rec", value: "53"},
-        {stat: "yds", value: "735"},
-        {stat: "tds", value: "4"},
-        {stat: "avg", value: "13.9"}        
+        {stat: "rec", value: "56"},
+        {stat: "yds", value: "762"},
+        {stat: "tds", value: "5"},
+        {stat: "avg", value: "13.6"}        
         ], }        
     ];
   rookies = [
     {id: "0", name: "Jonathon Taylor", position: "RB", age: "23",
-    note: "Has emerged as a solid starting RB in the absense of Marlon Mack.", 
+    note: "Broke a franchise record in game 16 and ran for over 1000 yards on the season.", 
     keystats: [
-      {stat: "att", value: "202"},
-      {stat: "yds", value: "916"},
-      {stat: "avg", value: "4.5"}, 
-      {stat: "tds", value: "9"},
+      {stat: "att", value: "232"},
+      {stat: "yds", value: "1169"},
+      {stat: "avg", value: "5"}, 
+      {stat: "tds", value: "11"},
       {stat: "lng", value: "62"}      
       ], },
     {id: "1", name: "Michael Pittman", position: "WR", age: "21",
-    note: "Out of USC returned from the IR got 101 receving yards against the Titans in game 9.", 
+    note: "Out of USC returned from the IR got 503 receving yards on the season.", 
     keystats: [
-      {stat: "rec", value: "38"},
-      {stat: "recYds", value: "475"},
-      {stat: "avg", value: "12.5"},
+      {stat: "rec", value: "40"},
+      {stat: "recYds", value: "503"},
+      {stat: "avg", value: "12.6"},
       {stat: "lng", value: "45"},
       {stat: "td", value: "1"}
       ], },
     {id: "2", name: "Julian Blackmon", position: "S", age: "22",
     note: "Out of Utah, 6.0 187-pound, has been thrown into play earlier than expected due to the loss of Malik Hooker.", 
     keystats: [
-      {stat: "tackles", value: "37"},
+      {stat: "tackles", value: "42"},
       {stat: "FF", value: "1"},
-      {stat: "solo", value: "30"}, 
+      {stat: "solo", value: "35"}, 
       {stat: "int", value: "2"},
       {stat: "pd", value: "6"}
       ], }
