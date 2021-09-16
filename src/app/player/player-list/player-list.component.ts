@@ -13,123 +13,115 @@ export class PlayerListComponent implements OnInit {
   selectedPlayer: Player;
   feedback: any = {type: 'info', message: ''};
   player: Player;
-  //players: Player[];  
+  //players: Player[];
 
-  players = [ 
-      {id: "0", name: "Phillip Rivers", position: "QB", age: "38", 
-      note: "2018 Pro Bowl selection played previously with the San Diego Chargers. New adventures with the Colts.",
+  players = [
+      {id: "0", name: "Carson Wentz", position: "QB", age: "28",
+      note: "Acquired in a trade with the Philidelphia Eagles. New adventures with the Colts.",
       keystats: [
-        {stat: "cmp", value: "68%"}, 
-        {stat: "passYds", value: "4169"}, 
-        {stat: "ints", value: "11"},
-        {stat: "tds", value: "24"},
-        {stat: "rtng", value: "97"},
-        {stat: "qbr", value: "62.7"}       
+        {stat: "cmp", value: "65.8%"},
+        {stat: "passYds", value: "251"},
+        {stat: "ints", value: "0"},
+        {stat: "tds", value: "2"},
+        {stat: "rtng", value: "102"}
         ], },
       {id: "1", name: "Kenny Moore II", position: "CB", age: "25",
       note: "Every season exceptional play on defense.",
       keystats: [
-        {stat: "int", value: "4"},
-        {stat: "tackles", value: "80"}, 
-        {stat: "solo", value: "68"}                
+        {stat: "int", value: "0"},
+        {stat: "tackles", value: "3"},
+        {stat: "sack", value: "1"}
         ], },
       {id: "2", name: "Deforest Buckner", position: "DB", age: "27",
-      note: "Former All Pro with San Fransisco 49ers. Acquired in deal for 2020 1st round draft pick", 
+      note: "Former All Pro with San Fransisco 49ers. Acquired in deal for 2020 1st round draft pick",
       keystats: [
-        {stat: "takles", value: "58"},
-        {stat: "sacks", value: "9.5"},
-        {stat: "solo", value: "37"},
-        {stat: "fr", value: "1"},
-        {stat: "ff", value: "2"}
+        {stat: "takles", value: "5"},
+        {stat: "sacks", value: "1"},
+        {stat: "fr", value: "0"},
+        {stat: "ff", value: "0"}
         ], }
     ];
   tops = [
-      {id: "0", name: "Darius Leonard", position: "DB", age: "25",
-      note: "Former Defensive Rookie of the Year and All Pro. Looking All Pro again in 2020.",
+      {id: "0", name: "Jonathon Taylor", position: "RB", age: "25",
+      note: "A huge year in 2020. Expected to continue that trend in 2021.",
       keystats: [
-        {stat: "takles", value: "132"},
-        {stat: "solo", value: "86" },
-        {stat: "sacks", value: "3"}, 
-        {stat: "ff", value: "3"},
-        {stat: "fr", value: "2"}      
+        {stat: "run atts", value: "17"},
+        {stat: "run yds", value: "56" },
+        {stat: "rec atts", value: "6"},
+        {stat: "rec yds", value: "60"},
+        {stat: "avg rec yds", value: "10"}
         ], },
-      {id: "1", name: "Justin Houston", position: "DE", age: "31",
-        note: "3 sacks against the Texans in game 12.",
+      {id: "1", name: "DeForest Buckner", position: "DE", age: "31",
+        note: "Looks to be discrupting offenses even more in 2021.",
         keystats: [
-          {stat: "sacks", value: "8"}, 
-          {stat: "tackles", value: "25" },
-          {stat: "solo", value: "19"}          
+          {stat: "sacks", value: "1"},
+          {stat: "tackles", value: "0" },
+          {stat: "ff", value: "1"}
           ], },
-      {id: "2", name: "TY Hilton", position: "WR", age: "31",
-      note: "Former Pro Bowler starting to click with Phillip Rivers.", 
+      {id: "2", name: "Zach Pascal", position: "WR", age: "26",
+      note: "Now the established veteran in the WR group. Stepping up for injured TY Hilton.",
       keystats: [
-        {stat: "rec", value: "56"},
-        {stat: "yds", value: "762"},
-        {stat: "tds", value: "5"},
-        {stat: "avg", value: "13.6"}        
-        ], }        
+        {stat: "rec", value: "4"},
+        {stat: "yds", value: "43"},
+        {stat: "tds", value: "2"},
+        {stat: "avg", value: "11"}
+        ], }
     ];
   rookies = [
-    {id: "0", name: "Jonathon Taylor", position: "RB", age: "23",
-    note: "Broke a franchise record in game 16 and ran for over 1000 yards on the season.", 
+    {id: "0", name: "Michael Strachan", position: "WR", age: "21",
+    note: "Out of Charleston.",
     keystats: [
-      {stat: "att", value: "232"},
-      {stat: "yds", value: "1169"},
-      {stat: "avg", value: "5"}, 
-      {stat: "tds", value: "11"},
-      {stat: "lng", value: "62"}      
+      {stat: "rec", value: "2"},
+      {stat: "recYds", value: "26"},
+      {stat: "avg", value: "13"},
+      {stat: "lng", value: "0"},
+      {stat: "td", value: "0"}
       ], },
-    {id: "1", name: "Michael Pittman", position: "WR", age: "21",
-    note: "Out of USC returned from the IR got 503 receving yards on the season.", 
+    {id: "1", name: "Kwitty Paye", position: "DE", age: "22",
+    note: "Out of Michigan, 6.2 261-pound, figures to make a big impact on the pass rush game.",
     keystats: [
-      {stat: "rec", value: "40"},
-      {stat: "recYds", value: "503"},
-      {stat: "avg", value: "12.6"},
-      {stat: "lng", value: "45"},
-      {stat: "td", value: "1"}
+      {stat: "sacks", value: "0"},
+      {stat: "fumb rec", value: "1"}
       ], },
-    {id: "2", name: "Julian Blackmon", position: "S", age: "22",
-    note: "Out of Utah, 6.0 187-pound, has been thrown into play earlier than expected due to the loss of Malik Hooker.", 
-    keystats: [
-      {stat: "tackles", value: "42"},
-      {stat: "FF", value: "1"},
-      {stat: "solo", value: "35"}, 
-      {stat: "int", value: "2"},
-      {stat: "pd", value: "6"}
-      ], }
-  ]    
+    {id: "2", name: "Dayo Odeyingbo", position: "DE", age: "21",
+      note: "Out of Vanderbilt, 6.6 276-pound, figures to be a fearsome dou with Kwitty Paye when he returns from injury.",
+      keystats: [
+        {stat: "tackles", value: "0"},
+        {stat: "sacks", value: "0"}
+        ], }
+  ]
   displayedColumns: string[] = ['name', 'position', 'info'];
-  
+
   public imageObject;
 
   constructor(private matDialog: MatDialog) { }
 
   ngOnInit(): void {
     this.imageObject = [
-      { 
-        image: '../../assets/images/privers2.png', 
-        thumbImage:'../../assets/images/privers2.png', 
-        title: 'Phillip Rivers 2020 Colts QB'
+      {
+        image: '../../assets/images/05-13-Wentz.jpg',
+        thumbImage:'../../assets/images/05-13-Wentz.jpg',
+        title: 'Carson Wentz 2021 Colts QB'
       },
-      { 
-        image: '../../assets/images/stats/rivers_2020_pass_ratings_graph_img.svg', 
-        thumbImage:'../../assets/images/stats/rivers_2020_pass_ratings_graph_img.svg', 
+      {
+        image: '../../assets/images/stats/wentz_2021_pass_ratings_graph_img.svg',
+        thumbImage:'../../assets/images/stats/wentz_2021_pass_ratings_graph_img.svg',
+        title: 'Wentz 2021 Passer Rating'
+      },
+      {
+        image: '../../assets/images/stats/rivers_2020_pass_ratings_graph_img.svg',
+        thumbImage:'../../assets/images/stats/rivers_2020_pass_ratings_graph_img.svg',
         title: 'Rivers 2020 Passer Rating'
-      },
-      { 
-        image: '../../assets/images/stats/rivers_2019_pass_ratings_graph_img.svg', 
-        thumbImage:'../../assets/images/stats/rivers_2019_pass_ratings_graph_img.svg', 
-        title: 'Rivers 2019 Passer Rating'
-      }     
+      }
     ]
   }
 
   openDialog(selected: Player) {
-    const dialogConfig = new MatDialogConfig();    
-    
+    const dialogConfig = new MatDialogConfig();
+
     //User cannot close the dialog outside of the dialog window
     dialogConfig.disableClose = true;
-    
+
     //you can override the positioning the dialog this way
     //dialogConfig.position = {
     //  'top': '0',
@@ -144,7 +136,7 @@ export class PlayerListComponent implements OnInit {
       data => console.log("player-list: openDialog: data: ", data.showPlayerStats)
     );
   }
-  
+
   close() {
     this.matDialog.closeAll();
   }
@@ -152,7 +144,7 @@ export class PlayerListComponent implements OnInit {
   onInfoClick(selected: Player) {
     event.preventDefault();
     event.stopPropagation();
-    this.openDialog(selected);    
+    this.openDialog(selected);
   }
 
 }

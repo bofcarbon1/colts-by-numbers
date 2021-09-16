@@ -14,29 +14,29 @@ export class PlayerOffenseComponent implements OnInit {
 
   ngOnInit(): void {
     this.imageObject = [
-      { 
-        image: '../../assets/images/stats/player_off_2020_runs_stats_graph_img.svg', 
-        thumbImage:'../../assets/images/stats/player_off_2020_runs_stats_graph_img.svg', 
+      {
+        image: '../../assets/images/stats/player_off_2021_runs_stats_graph_img.svg',
+        thumbImage:'../../assets/images/stats/player_off_2021_runs_stats_graph_img.svg',
+        title: 'Colts 2021 Top Rushers'
+      },
+      {
+        image: '../../assets/images/stats/player_off_2021_recs_stats_graph_img.svg',
+        thumbImage:'../../assets/images/stats/player_off_2021_recs_stats_graph_img.svg',
+        title: 'Colts 2021 Top Receivers'
+      }
+    ];
+    this.imageObject2 = [
+      {
+        image: '../../assets/images/stats/player_off_2020_runs_stats_graph_img.svg',
+        thumbImage:'../../assets/images/stats/player_off_2020_runs_stats_graph_img.svg',
         title: 'Colts 2020 Top Rushers'
       },
-      { 
-        image: '../../assets/images/stats/player_off_2020_recs_stats_graph_img.svg', 
-        thumbImage:'../../assets/images/stats/player_off_2020_recs_stats_graph_img.svg', 
+      {
+        image: '../../assets/images/stats/player_off_2020_recs_stats_graph_img.svg',
+        thumbImage:'../../assets/images/stats/player_off_2020_recs_stats_graph_img.svg',
         title: 'Colts 2020 Top Receivers'
       }
-    ]; 
-    this.imageObject2 = [
-      { 
-        image: '../../assets/images/stats/player_off_runs_stats_graph_img.svg', 
-        thumbImage:'../../assets/images/stats/player_off_runs_stats_graph_img.svg', 
-        title: 'Colts 2019 Top Rushers'
-      },
-      { 
-        image: '../../assets/images/stats/player_off_recs_stats_graph_img.svg', 
-        thumbImage:'../../assets/images/stats/player_off_recs_stats_graph_img.svg', 
-        title: 'Colts 2019 Top Receivers'
-      }
-    ]; 
+    ];
   }
 
 }

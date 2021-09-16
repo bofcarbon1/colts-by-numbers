@@ -29,7 +29,7 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
-              "src/styles.scss"              
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "colts-by-numbers"
+  "defaultProject": "colts-by-numbers",
+  "cli": {
+    "analytics": "0cdf43a8-7d9a-4e6d-98ce-270ddaf89bcd"
+  }
 }

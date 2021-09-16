@@ -1,21 +1,21 @@
 <mat-toolbar class="mat-toolbar">
-  <mat-toolbar-row>   
-    Colts By Numbers:&nbsp;&nbsp;     
+  <mat-toolbar-row>
+    Colts By Numbers:&nbsp;&nbsp;
     <div style="border: 1px solid whitesmoke ">
-      <a routerLink="/home">&nbsp;Home&nbsp;</a>    
-      <a routerLink="/team">&nbsp;Team&nbsp;</a>  
-      <a routerLink="/player/offense">&nbsp;Player-Offense&nbsp;</a>  
-      <a routerLink="/player/defense">&nbsp;Player-Defense&nbsp;</a>  
+      <a routerLink="/home">&nbsp;Home&nbsp;</a>
+      <a routerLink="/team">&nbsp;Team&nbsp;</a>
+      <a routerLink="/player/offense">&nbsp;Player-Offense&nbsp;</a>
+      <a routerLink="/player/defense">&nbsp;Player-Defense&nbsp;</a>
     </div>
   </mat-toolbar-row>
 </mat-toolbar>
-<div flex layout="row">  
+<div flex layout="row">
   <div layout="column" flex>
     <div class="box1">
       <div class="container">
-        <h3>&nbsp;&nbsp;Players To Watch</h3>                  
-        <table mat-table class="mat-elevation-z8">      
-          <th mat-header-cell> Name </th> 
+        <h3>&nbsp;&nbsp;Players To Watch</h3>
+        <table mat-table class="mat-elevation-z8">
+          <th mat-header-cell> Name </th>
           <th mat-header-cell> Position </th>
           <th mat-header-cell> Info </th>
           <tr mat-row *ngFor="let player of players">
@@ -23,19 +23,19 @@
             <td mat-cell>{{player.position}}</td>
             <td mat-cell><a (click)="onInfoClick(player)">
               <img  src="../../../assets/images/icons8-info.svg" /></a>
-            </td>            
-          </tr>       
-        </table>      
-      </div> 
+            </td>
+          </tr>
+        </table>
+      </div>
       <div class="contaner">
         <mat-card flex="100" layout-margin layout-padding layout-align="center stretch" >
           <img class="main-img" mat-card-image style="width: 200px; height: 200px;" src="../../assets/images/dleonard.jpg" />
         </mat-card>
       </div>
       <div class="container">
-        <h3>&nbsp;&nbsp;Top Numbers</h3>  
-        <table mat-table class="mat-elevation-z8"> 
-          <th mat-header-cell> Name </th> 
+        <h3>&nbsp;&nbsp;Top Numbers</h3>
+        <table mat-table class="mat-elevation-z8">
+          <th mat-header-cell> Name </th>
           <th mat-header-cell> Position </th>
           <th mat-header-cell> Info </th>
           <tr mat-row *ngFor="let top of tops">
@@ -43,9 +43,9 @@
             <td mat-cell>{{top.position}}</td>
             <td mat-cell><a (click)="onInfoClick(top)">
               <img  src="../../../assets/images/icons8-info.svg" /></a>
-            </td>            
+            </td>
           </tr>
-        </table>      
+        </table>
       </div>
       <div class="container">
         <mat-card flex="100" layout-margin layout-padding layout-align="center stretch" >
@@ -53,9 +53,9 @@
         </mat-card>
       </div>
       <div class="container">
-        <h3>&nbsp;&nbsp;Rookie Watch</h3>  
-        <table mat-table class="mat-elevation-z8">  
-          <th mat-header-cell> Name </th> 
+        <h3>&nbsp;&nbsp;Rookie Watch</h3>
+        <table mat-table class="mat-elevation-z8">
+          <th mat-header-cell> Name </th>
           <th mat-header-cell> Position </th>
           <th mat-header-cell> Info </th>
           <tr mat-row *ngFor="let rookie of rookies">
@@ -63,53 +63,37 @@
             <td mat-cell>{{rookie.position}}</td>
             <td mat-cell><a (click)="onInfoClick(rookie)">
               <img  src="../../../assets/images/icons8-info.svg" /></a>
-            </td>            
+            </td>
           </tr>
         </table>
-      </div>                              
+      </div>
     </div>
     <div class="box2">
       <div class="container">
-        <h3>&nbsp;&nbsp;Rivers Walk</h3>     
-        <p>            
-          4169... yards passing. Rivers regular season total.
-        </p>        
-        <ng-image-slider #nav          
+        <h3>&nbsp;&nbsp;Carson City</h3>
+        <p>
+          251... yards passing. Wentz regular season total.
+        </p>
+        <ng-image-slider #nav
         [images]="imageObject"
-        [imageSize]="{width: '25%', height: 200}" 
+        [imageSize]="{width: '25%', height: 200}"
         [infinite]="false"
         [autoSlide]="1"
         slideImage="1"
-        >   
+        >
         </ng-image-slider>
       </div>
       <div class="container">
-        <h3>&nbsp;&nbsp;Players Table</h3>  
-        <p>        
-          253... yards rushing and a franchise record for Jonathon Taylor. 
+        <h3>&nbsp;&nbsp;Players Table</h3>
+        <p>
+          116... total yards Jonathon Taylor against a tough Seattle defense.
           <br/>
-          First player in NFL history 100 yards rushing in the first QTR.
+          26... yards and 2 catches as Michael Strachan makes his Colts NFL debut.
           <br/>
-          1169 yards and 11 TDs, NFL Offensive Rookie of the Month. WOW!  
-          <br/>   
-          <br/>    
-          132... tackles. Darius Leonard lead the Colts for the season. 
-          <br/> 
-          AFC Defensive Player of the Week for week 17. 
-          <br/>   
-          <br/>    
-          89.7... highest-graded Indy Colt DeForest Buckner. 
+          1... sack for DeForest Buckner and Kenny Moore II on the elusive Russel Wilson.
           <br/>
-          9.5... sacks on the season and NFL Defensive Player of the Month.  
-          <br/>   
-          <br/>  
-          762... receiving yards. TY Hilton lead the way for the season. 
-          <br/>   
           <br/>
-          389... rushing, 482 receiving yds with 7 TDs Nyheim Hines for season. 
-          <br/>   
-          <br/>                             
-        </p> 
+        </p>
       </div>
     </div>
     <div class="box3">
@@ -117,5 +101,5 @@
     </div>
   </div>
 </div>
-        
+
 
