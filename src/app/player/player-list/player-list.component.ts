@@ -19,23 +19,21 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Carson Wentz", position: "QB", age: "28",
       note: "Acquired in a trade with the Philidelphia Eagles. New adventures with the Colts.",
       keystats: [
-        {stat: "cmp", value: "65.8%"},
-        {stat: "passYds", value: "251"},
-        {stat: "ints", value: "0"},
-        {stat: "tds", value: "2"},
-        {stat: "rtng", value: "102"}
+        {stat: "cmp", value: "65.2%"},
+        {stat: "passYds", value: "498"},
+        {stat: "ints", value: "1"},
+        {stat: "tds", value: "3"},
+        {stat: "rtng", value: "95"}
         ], },
-      {id: "1", name: "Kenny Moore II", position: "CB", age: "25",
-      note: "Every season exceptional play on defense.",
+      {id: "1", name: "Eric Fisher", position: "OT", age: "30",
+      note: "Picked up from KC and returning from injury to bolster the OL.",
       keystats: [
-        {stat: "int", value: "0"},
-        {stat: "tackles", value: "3"},
-        {stat: "sack", value: "1"}
+        {stat: "games", value: "1"}
         ], },
       {id: "2", name: "Deforest Buckner", position: "DB", age: "27",
       note: "Former All Pro with San Fransisco 49ers. Acquired in deal for 2020 1st round draft pick",
       keystats: [
-        {stat: "takles", value: "5"},
+        {stat: "takles", value: "6"},
         {stat: "sacks", value: "1"},
         {stat: "fr", value: "0"},
         {stat: "ff", value: "0"}
@@ -45,26 +43,28 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Jonathon Taylor", position: "RB", age: "25",
       note: "A huge year in 2020. Expected to continue that trend in 2021.",
       keystats: [
-        {stat: "run atts", value: "17"},
-        {stat: "run yds", value: "56" },
-        {stat: "rec atts", value: "6"},
-        {stat: "rec yds", value: "60"},
-        {stat: "avg rec yds", value: "10"}
+        {stat: "run atts", value: "32"},
+        {stat: "run yds", value: "107" },
+        {stat: "avg yds", value: "3.3" },
+        {stat: "rec atts", value: "7"},
+        {stat: "rec yds", value: "62"},
+        {stat: "avg rec yds", value: "9"}
         ], },
-      {id: "1", name: "DeForest Buckner", position: "DE", age: "31",
+      {id: "1", name: "Khari Willis", position: "DB", age: "25",
         note: "Looks to be discrupting offenses even more in 2021.",
         keystats: [
-          {stat: "sacks", value: "1"},
-          {stat: "tackles", value: "0" },
-          {stat: "ff", value: "1"}
+          {stat: "sacks", value: ".5"},
+          {stat: "tackles", value: "15" },
+          {stat: "int", value: "1" },
+          {stat: "ff", value: "0"}
           ], },
-      {id: "2", name: "Zach Pascal", position: "WR", age: "26",
-      note: "Now the established veteran in the WR group. Stepping up for injured TY Hilton.",
+      {id: "2", name: "Michael Pittman", position: "WR", age: "23",
+      note: "Up to the call while and looking like a #1.",
       keystats: [
-        {stat: "rec", value: "4"},
-        {stat: "yds", value: "43"},
-        {stat: "tds", value: "2"},
-        {stat: "avg", value: "11"}
+        {stat: "rec", value: "11"},
+        {stat: "yds", value: "153"},
+        {stat: "tds", value: "0"},
+        {stat: "avg", value: "14"}
         ], }
     ];
   rookies = [
@@ -80,6 +80,7 @@ export class PlayerListComponent implements OnInit {
     {id: "1", name: "Kwitty Paye", position: "DE", age: "22",
     note: "Out of Michigan, 6.2 261-pound, figures to make a big impact on the pass rush game.",
     keystats: [
+      {stat: "solo", value: "3"},
       {stat: "sacks", value: "0"},
       {stat: "fumb rec", value: "1"}
       ], },
