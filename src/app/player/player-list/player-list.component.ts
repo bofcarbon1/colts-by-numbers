@@ -19,21 +19,21 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Carson Wentz", position: "QB", age: "28",
       note: "Acquired in a trade with the Philidelphia Eagles. New adventures with the Colts.",
       keystats: [
-        {stat: "cmp", value: "65.2%"},
-        {stat: "passYds", value: "498"},
+        {stat: "cmp", value: "60.4%"},
+        {stat: "passYds", value: "692"},
         {stat: "ints", value: "1"},
         {stat: "tds", value: "3"},
-        {stat: "rtng", value: "95"}
+        {stat: "rtng", value: "85"}
         ], },
       {id: "1", name: "Eric Fisher", position: "OT", age: "30",
       note: "Picked up from KC and returning from injury to bolster the OL.",
       keystats: [
-        {stat: "games", value: "1"}
+        {stat: "games", value: "2"}
         ], },
       {id: "2", name: "Deforest Buckner", position: "DB", age: "27",
       note: "Former All Pro with San Fransisco 49ers. Acquired in deal for 2020 1st round draft pick",
       keystats: [
-        {stat: "takles", value: "6"},
+        {stat: "takles", value: "15"},
         {stat: "sacks", value: "1"},
         {stat: "fr", value: "0"},
         {stat: "ff", value: "0"}
@@ -43,28 +43,28 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Jonathon Taylor", position: "RB", age: "25",
       note: "A huge year in 2020. Expected to continue that trend in 2021.",
       keystats: [
-        {stat: "run atts", value: "32"},
-        {stat: "run yds", value: "107" },
-        {stat: "avg yds", value: "3.3" },
-        {stat: "rec atts", value: "7"},
-        {stat: "rec yds", value: "62"},
+        {stat: "run atts", value: "42"},
+        {stat: "run yds", value: "171" },
+        {stat: "avg yds", value: "4.1" },
+        {stat: "rec atts", value: "8"},
+        {stat: "rec yds", value: "70"},
         {stat: "avg rec yds", value: "9"}
         ], },
       {id: "1", name: "Khari Willis", position: "DB", age: "25",
         note: "Looks to be discrupting offenses even more in 2021.",
         keystats: [
           {stat: "sacks", value: ".5"},
-          {stat: "tackles", value: "15" },
+          {stat: "tackles", value: "21" },
           {stat: "int", value: "1" },
           {stat: "ff", value: "0"}
           ], },
       {id: "2", name: "Michael Pittman", position: "WR", age: "23",
       note: "Up to the call while and looking like a #1.",
       keystats: [
-        {stat: "rec", value: "11"},
-        {stat: "yds", value: "153"},
+        {stat: "rec", value: "17"},
+        {stat: "yds", value: "220"},
         {stat: "tds", value: "0"},
-        {stat: "avg", value: "14"}
+        {stat: "avg", value: "13"}
         ], }
     ];
   rookies = [
@@ -74,15 +74,15 @@ export class PlayerListComponent implements OnInit {
       {stat: "rec", value: "2"},
       {stat: "recYds", value: "26"},
       {stat: "avg", value: "13"},
-      {stat: "lng", value: "0"},
+      {stat: "lng", value: "16"},
       {stat: "td", value: "0"}
       ], },
     {id: "1", name: "Kwitty Paye", position: "DE", age: "22",
     note: "Out of Michigan, 6.2 261-pound, figures to make a big impact on the pass rush game.",
     keystats: [
-      {stat: "solo", value: "3"},
-      {stat: "sacks", value: "0"},
-      {stat: "fumb rec", value: "1"}
+      {stat: "solo", value: "8"},
+      {stat: "sacks", value: "6"},
+      {stat: "FR", value: "1"}
       ], },
     {id: "2", name: "Dayo Odeyingbo", position: "DE", age: "21",
       note: "Out of Vanderbilt, 6.6 276-pound, figures to be a fearsome dou with Kwitty Paye when he returns from injury.",
