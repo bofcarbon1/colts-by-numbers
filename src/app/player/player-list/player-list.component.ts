@@ -19,52 +19,52 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Carson Wentz", position: "QB", age: "28",
       note: "Acquired in a trade with the Philidelphia Eagles. New adventures with the Colts.",
       keystats: [
-        {stat: "cmp", value: "60.4%"},
-        {stat: "passYds", value: "692"},
+        {stat: "cmp", value: "63.8%"},
+        {stat: "passYds", value: "920"},
         {stat: "ints", value: "1"},
-        {stat: "tds", value: "3"},
-        {stat: "rtng", value: "85"}
+        {stat: "tds", value: "5"},
+        {stat: "rtng", value: "92"}
         ], },
-      {id: "1", name: "Eric Fisher", position: "OT", age: "30",
-      note: "Picked up from KC and returning from injury to bolster the OL.",
+      {id: "1", name: "Kemoko Turay", position: "DE", age: "26",
+      note: "Picking it up in 2021 to bolster the Colts pass rush.",
       keystats: [
-        {stat: "games", value: "2"}
+        {stat: "sacks", value: "2"},
+        {stat: "solo", value: "2"}
         ], },
-      {id: "2", name: "Deforest Buckner", position: "DB", age: "27",
-      note: "Former All Pro with San Fransisco 49ers. Acquired in deal for 2020 1st round draft pick",
+      {id: "2", name: "Darius Leonard", position: "LB", age: "26",
+      note: "Working through injuries in 2021 and looking for another great season",
       keystats: [
-        {stat: "takles", value: "15"},
-        {stat: "sacks", value: "1"},
-        {stat: "fr", value: "0"},
-        {stat: "ff", value: "0"}
+        {stat: "solo", value: "11"},
+        {stat: "sacks", value: "0"},
+        {stat: "int", value: "1"},
+        {stat: "ff", value: "1"}
         ], }
     ];
   tops = [
       {id: "0", name: "Jonathon Taylor", position: "RB", age: "25",
       note: "A huge year in 2020. Expected to continue that trend in 2021.",
       keystats: [
-        {stat: "run atts", value: "42"},
-        {stat: "run yds", value: "171" },
-        {stat: "avg yds", value: "4.1" },
-        {stat: "rec atts", value: "8"},
-        {stat: "rec yds", value: "70"},
-        {stat: "avg rec yds", value: "9"}
+        {stat: "run atts", value: "58"},
+        {stat: "run yds", value: "274" },
+        {stat: "avg yds", value: "4.7" },
+        {stat: "rec atts", value: "12"},
+        {stat: "rec yds", value: "81"}
         ], },
-      {id: "1", name: "Khari Willis", position: "DB", age: "25",
-        note: "Looks to be discrupting offenses even more in 2021.",
+      {id: "1", name: "Julian Blackmon", position: "S", age: "23",
+        note: "Leading the Colts in solo tackles.",
         keystats: [
-          {stat: "sacks", value: ".5"},
-          {stat: "tackles", value: "21" },
-          {stat: "int", value: "1" },
+          {stat: "sacks", value: "0"},
+          {stat: "solo", value: "18" },
+          {stat: "int", value: "0" },
           {stat: "ff", value: "0"}
           ], },
-      {id: "2", name: "Michael Pittman", position: "WR", age: "23",
+      {id: "2", name: "Michael Pittman", position: "WR", age: "24",
       note: "Up to the call while and looking like a #1.",
       keystats: [
-        {stat: "rec", value: "17"},
-        {stat: "yds", value: "220"},
+        {stat: "rec", value: "23"},
+        {stat: "yds", value: "279"},
         {stat: "tds", value: "0"},
-        {stat: "avg", value: "13"}
+        {stat: "avg", value: "12"}
         ], }
     ];
   rookies = [
@@ -80,9 +80,9 @@ export class PlayerListComponent implements OnInit {
     {id: "1", name: "Kwitty Paye", position: "DE", age: "22",
     note: "Out of Michigan, 6.2 261-pound, figures to make a big impact on the pass rush game.",
     keystats: [
-      {stat: "solo", value: "8"},
-      {stat: "sacks", value: "6"},
-      {stat: "FR", value: "1"}
+      {stat: "solo", value: "3"},
+      {stat: "sacks", value: "0"},
+      {stat: "ff", value: "0"}
       ], },
     {id: "2", name: "Dayo Odeyingbo", position: "DE", age: "21",
       note: "Out of Vanderbilt, 6.6 276-pound, figures to be a fearsome dou with Kwitty Paye when he returns from injury.",
