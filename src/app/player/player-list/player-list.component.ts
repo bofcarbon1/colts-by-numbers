@@ -19,52 +19,52 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Carson Wentz", position: "QB", age: "28",
       note: "Acquired in a trade with the Philidelphia Eagles. New adventures with the Colts.",
       keystats: [
-        {stat: "cmp", value: "63.8%"},
-        {stat: "passYds", value: "920"},
+        {stat: "cmp", value: "65.3%"},
+        {stat: "passYds", value: "1322"},
         {stat: "ints", value: "1"},
-        {stat: "tds", value: "5"},
-        {stat: "rtng", value: "92"}
+        {stat: "tds", value: "7"},
+        {stat: "rtng", value: "99.4"}
         ], },
-      {id: "1", name: "Kemoko Turay", position: "DE", age: "26",
-      note: "Picking it up in 2021 to bolster the Colts pass rush.",
+      {id: "1", name: "Kenny Moore", position: "CB", age: "26",
+      note: "Always producing on defense. Year afer year.",
       keystats: [
-        {stat: "sacks", value: "2"},
-        {stat: "solo", value: "2"}
+        {stat: "sacks", value: "1"},
+        {stat: "solo", value: "23"}
         ], },
-      {id: "2", name: "Darius Leonard", position: "LB", age: "26",
-      note: "Working through injuries in 2021 and looking for another great season",
+      {id: "2", name: "Matt Prior", position: "OL", age: "2?",
+      note: "Stepping in on the right side of the OL with a 71.2 grade",
       keystats: [
-        {stat: "solo", value: "11"},
-        {stat: "sacks", value: "0"},
-        {stat: "int", value: "1"},
-        {stat: "ff", value: "1"}
+        {stat: "games", value: "5"},
+        {stat: "gs", value: "1"}
         ], }
     ];
   tops = [
       {id: "0", name: "Jonathon Taylor", position: "RB", age: "25",
-      note: "A huge year in 2020. Expected to continue that trend in 2021.",
+      note: "A stud in 2021. Rushing, receiving just about everywhere.",
       keystats: [
-        {stat: "run atts", value: "58"},
-        {stat: "run yds", value: "274" },
-        {stat: "avg yds", value: "4.7" },
-        {stat: "rec atts", value: "12"},
-        {stat: "rec yds", value: "81"}
+        {stat: "run atts", value: "73"},
+        {stat: "run yds", value: "327" },
+        {stat: "avg yds", value: "4.5" },
+        {stat: "rec atts", value: "14"},
+        {stat: "rec yds", value: "197"},
+        {stat: "y/a", value: "14.1"}
         ], },
-      {id: "1", name: "Julian Blackmon", position: "S", age: "23",
-        note: "Leading the Colts in solo tackles.",
+      {id: "1", name: "Darius Leonard", position: "LB", age: "26",
+        note: "Leading the Colts in total combined tackles.",
         keystats: [
           {stat: "sacks", value: "0"},
-          {stat: "solo", value: "18" },
-          {stat: "int", value: "0" },
-          {stat: "ff", value: "0"}
+          {stat: "comined", value: "38" },
+          {stat: "solo", value: "16" },
+          {stat: "int", value: "1" },
+          {stat: "ff", value: "1"}
           ], },
       {id: "2", name: "Michael Pittman", position: "WR", age: "24",
-      note: "Up to the call while and looking like a #1.",
+      note: "Leading the WR group in yds.",
       keystats: [
-        {stat: "rec", value: "23"},
-        {stat: "yds", value: "279"},
-        {stat: "tds", value: "0"},
-        {stat: "avg", value: "12"}
+        {stat: "rec", value: "29"},
+        {stat: "yds", value: "368"},
+        {stat: "tds", value: "1"},
+        {stat: "avg", value: "12.7"}
         ], }
     ];
   rookies = [
