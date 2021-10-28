@@ -19,53 +19,57 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Carson Wentz", position: "QB", age: "28",
       note: "Acquired in a trade with the Philidelphia Eagles. New adventures with the Colts.",
       keystats: [
-        {stat: "cmp", value: "64.2%"},
-        {stat: "passYds", value: "1545"},
+        {stat: "cmp", value: "64.4%"},
+        {stat: "passYds", value: "1695"},
         {stat: "ints", value: "1"},
-        {stat: "tds", value: "9"},
-        {stat: "rtng", value: "102.4"}
+        {stat: "tds", value: "11"},
+        {stat: "rtng", value: "102.8"}
         ], },
-      {id: "1", name: "Kenny Moore", position: "CB", age: "26",
-      note: "Always producing on defense. Year afer year.",
+      {id: "1", name: "Al-Quadin Muhammad", position: "DT", age: "26",
+      note: "Quietly having a good year in 2021.",
       keystats: [
-        {stat: "sacks", value: "1"},
-        {stat: "solo", value: "33"},
-        {stat: "int", value: "1"}
+        {stat: "sacks", value: "3"},
+        {stat: "solo", value: "17"},
+        {stat: "ff", value: "1"}
         ], },
-      {id: "2", name: "Chris Reed", position: "G", age: "29",
-      note: "Out of Minnesota State 6 years in the NFL stepping up on the OL",
+      {id: "2", name: "Michael Badgley", position: "K", age: "26",
+      note: "Stepping in for Hot Rod and doing well",
       keystats: [
-        {stat: "games", value: "4"},
-        {stat: "gs", value: "3"}
+        {stat: "fga", value: "3"},
+        {stat: "fgm", value: "2"},
+        {stat: "xpa", value: "9"},
+        {stat: "xpm", value: "8"}
         ], }
     ];
   tops = [
       {id: "0", name: "Jonathon Taylor", position: "RB", age: "25",
       note: "A stud in 2021. Rushing, receiving just about everywhere.",
       keystats: [
-        {stat: "run atts", value: "87"},
-        {stat: "run yds", value: "472" },
-        {stat: "avg yds", value: "5.4" },
+        {stat: "run atts", value: "105"},
+        {stat: "run yds", value: "579" },
+        {stat: "avg yds", value: "5.5" },
+        {stat: "tds", value: "5" },
         {stat: "rec atts", value: "18"},
-        {stat: "rec yds", value: "210"},
-        {stat: "y/a", value: "14.0"}
+        {stat: "rec yds", value: "213"},
+        {stat: "y/r", value: "11.0"}
         ], },
       {id: "1", name: "Darius Leonard", position: "LB", age: "26",
         note: "Leading the Colts in total combined tackles.",
         keystats: [
           {stat: "sacks", value: "0"},
-          {stat: "comined", value: "45" },
-          {stat: "solo", value: "28" },
+          {stat: "combined", value: "52" },
+          {stat: "solo", value: "30" },
           {stat: "int", value: "2" },
-          {stat: "ff", value: "2"}
+          {stat: "ff", value: "3"},
+          {stat: "fr", value: "3"}
           ], },
       {id: "2", name: "Michael Pittman", position: "WR", age: "24",
       note: "Leading the WR group in yds.",
       keystats: [
-        {stat: "rec", value: "31"},
-        {stat: "yds", value: "403"},
-        {stat: "tds", value: "1"},
-        {stat: "avg", value: "13"}
+        {stat: "rec", value: "35"},
+        {stat: "yds", value: "508"},
+        {stat: "tds", value: "2"},
+        {stat: "avg", value: "14"}
         ], }
     ];
   rookies = [
@@ -81,9 +85,9 @@ export class PlayerListComponent implements OnInit {
     {id: "1", name: "Kwitty Paye", position: "DE", age: "22",
     note: "Out of Michigan, 6.2 261-pound, figures to make a big impact on the pass rush game.",
     keystats: [
-      {stat: "solo", value: "7"},
+      {stat: "solo", value: "8"},
       {stat: "sacks", value: "0"},
-      {stat: "fr", value: "1"}
+      {stat: "fr", value: "2"}
       ], },
     {id: "2", name: "Dayo Odeyingbo", position: "DE", age: "21",
       note: "Out of Vanderbilt, 6.6 276-pound, should be ready by game 8.",
