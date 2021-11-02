@@ -19,26 +19,24 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Carson Wentz", position: "QB", age: "28",
       note: "Acquired in a trade with the Philidelphia Eagles. New adventures with the Colts.",
       keystats: [
-        {stat: "cmp", value: "64.4%"},
-        {stat: "passYds", value: "1695"},
-        {stat: "ints", value: "1"},
-        {stat: "tds", value: "11"},
-        {stat: "rtng", value: "102.8"}
+        {stat: "cmp", value: "62.2%"},
+        {stat: "passYds", value: "1926"},
+        {stat: "ints", value: "3"},
+        {stat: "tds", value: "14"},
+        {stat: "rtng", value: "96.3"}
         ], },
-      {id: "1", name: "Al-Quadin Muhammad", position: "DT", age: "26",
-      note: "Quietly having a good year in 2021.",
+      {id: "1", name: "DeForest Buckner", position: "DT", age: "26",
+      note: "Leading the Colts in sacks in 2021.",
       keystats: [
-        {stat: "sacks", value: "3"},
-        {stat: "solo", value: "17"},
-        {stat: "ff", value: "1"}
+        {stat: "sacks", value: "4"},
+        {stat: "solo", value: "21"},
+        {stat: "ff", value: "0"}
         ], },
-      {id: "2", name: "Michael Badgley", position: "K", age: "26",
-      note: "Stepping in for Hot Rod and doing well",
+      {id: "2", name: "Bobby Okereke", position: "LB", age: "25",
+      note: "Getting his share of tackles in 2021",
       keystats: [
-        {stat: "fga", value: "3"},
-        {stat: "fgm", value: "2"},
-        {stat: "xpa", value: "9"},
-        {stat: "xpm", value: "8"}
+        {stat: "solo", value: "43"},
+        {stat: "sack", value: "1"}
         ], }
     ];
   tops = [
@@ -53,23 +51,20 @@ export class PlayerListComponent implements OnInit {
         {stat: "rec yds", value: "213"},
         {stat: "y/r", value: "11.0"}
         ], },
-      {id: "1", name: "Darius Leonard", position: "LB", age: "26",
-        note: "Leading the Colts in total combined tackles.",
+      {id: "1", name: "Kenny Moore", position: "CB", age: "26",
+        note: "Leading the Colts in solo tackles.",
         keystats: [
-          {stat: "sacks", value: "0"},
-          {stat: "combined", value: "52" },
-          {stat: "solo", value: "30" },
-          {stat: "int", value: "2" },
-          {stat: "ff", value: "3"},
-          {stat: "fr", value: "3"}
+          {stat: "sacks", value: "1"},
+          {stat: "solo", value: "45" },
+          {stat: "int", value: "2" }
           ], },
       {id: "2", name: "Michael Pittman", position: "WR", age: "24",
       note: "Leading the WR group in yds.",
       keystats: [
-        {stat: "rec", value: "35"},
-        {stat: "yds", value: "508"},
-        {stat: "tds", value: "2"},
-        {stat: "avg", value: "14"}
+        {stat: "rec", value: "45"},
+        {stat: "yds", value: "594"},
+        {stat: "tds", value: "4"},
+        {stat: "avg", value: "13"}
         ], }
     ];
   rookies = [
@@ -85,7 +80,7 @@ export class PlayerListComponent implements OnInit {
     {id: "1", name: "Kwitty Paye", position: "DE", age: "22",
     note: "Out of Michigan, 6.2 261-pound, figures to make a big impact on the pass rush game.",
     keystats: [
-      {stat: "solo", value: "8"},
+      {stat: "solo", value: "9"},
       {stat: "sacks", value: "0"},
       {stat: "fr", value: "2"}
       ], },
