@@ -19,34 +19,34 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Carson Wentz", position: "QB", age: "28",
       note: "Acquired in a trade with the Philidelphia Eagles. New adventures with the Colts.",
       keystats: [
-        {stat: "cmp", value: "63.3%"},
-        {stat: "passYds", value: "2948"},
-        {stat: "ints", value: "5"},
-        {stat: "tds", value: "22"},
-        {stat: "rtng", value: "96.6"}
+        {stat: "cmp", value: "62.7%"},
+        {stat: "passYds", value: "3005"},
+        {stat: "ints", value: "6"},
+        {stat: "tds", value: "23"},
+        {stat: "rtng", value: "95.3"}
         ], },
       {id: "1", name: "DeForest Buckner", position: "DT", age: "26",
       note: "Leading the Colts in sacks in 2021.",
       keystats: [
-        {stat: "sacks", value: "5.5"},
-        {stat: "solo", value: "29"},
+        {stat: "sacks", value: "6.5"},
+        {stat: "solo", value: "32"},
         {stat: "ff", value: "0"}
         ], },
-      {id: "2", name: "Bobby Okereke", position: "LB", age: "25",
-      note: "Leading the team in  tackles in 2021",
+      {id: "2", name: "Darius Leonard", position: "LB", age: "26",
+      note: "The man with the punch leading turnovers in 2021",
       keystats: [
-        {stat: "solo", value: "71"},
-        {stat: "sack", value: "1"}
+        {stat: "solo", value: "68"},
+        {stat: "ff", value: "6"}
         ], }
     ];
   tops = [
       {id: "0", name: "Jonathon Taylor", position: "RB", age: "25",
       note: "A stud in 2021. Rushing, receiving just about everywhere.",
       keystats: [
-        {stat: "run atts", value: "241"},
-        {stat: "run yds", value: "1348" },
+        {stat: "run atts", value: "270"},
+        {stat: "run yds", value: "1518" },
         {stat: "avg yds", value: "5.6" },
-        {stat: "tds", value: "16" },
+        {stat: "tds", value: "17" },
         {stat: "rec atts", value: "36"},
         {stat: "rec yds", value: "336"},
         {stat: "y/r", value: "7.8"}
@@ -55,16 +55,16 @@ export class PlayerListComponent implements OnInit {
         note: "Leading the Colts in solo tackles.",
         keystats: [
           {stat: "sacks", value: "1"},
-          {stat: "solo", value: "62" },
+          {stat: "solo", value: "67" },
           {stat: "int", value: "4" }
           ], },
       {id: "2", name: "Michael Pittman", position: "WR", age: "24",
       note: "Leading the WR group in yds.",
       keystats: [
-        {stat: "rec", value: "67"},
-        {stat: "yds", value: "882"},
+        {stat: "rec", value: "68"},
+        {stat: "yds", value: "889"},
         {stat: "tds", value: "5"},
-        {stat: "y/r", value: "8.9"}
+        {stat: "y/r", value: "13.1"}
         ], }
     ];
   rookies = [
