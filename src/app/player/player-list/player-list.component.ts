@@ -19,17 +19,17 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Carson Wentz", position: "QB", age: "28",
       note: "Acquired in a trade with the Philidelphia Eagles. New adventures with the Colts.",
       keystats: [
-        {stat: "cmp", value: "62.7%"},
-        {stat: "passYds", value: "3005"},
+        {stat: "cmp", value: "62.8%"},
+        {stat: "passYds", value: "3230"},
         {stat: "ints", value: "6"},
-        {stat: "tds", value: "23"},
-        {stat: "rtng", value: "95.3"}
+        {stat: "tds", value: "25"},
+        {stat: "rtng", value: "96.4"}
         ], },
       {id: "1", name: "DeForest Buckner", position: "DT", age: "26",
       note: "Leading the Colts in sacks in 2021.",
       keystats: [
         {stat: "sacks", value: "6.5"},
-        {stat: "solo", value: "32"},
+        {stat: "solo", value: "33"},
         {stat: "ff", value: "0"}
         ], },
       {id: "2", name: "Darius Leonard", position: "LB", age: "26",
@@ -43,9 +43,9 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Jonathon Taylor", position: "RB", age: "25",
       note: "A stud in 2021. Rushing, receiving just about everywhere.",
       keystats: [
-        {stat: "run atts", value: "270"},
-        {stat: "run yds", value: "1518" },
-        {stat: "avg yds", value: "5.6" },
+        {stat: "run atts", value: "297"},
+        {stat: "run yds", value: "1626" },
+        {stat: "avg yds", value: "5.5" },
         {stat: "tds", value: "17" },
         {stat: "rec atts", value: "36"},
         {stat: "rec yds", value: "336"},
@@ -55,31 +55,31 @@ export class PlayerListComponent implements OnInit {
         note: "Leading the Colts in solo tackles.",
         keystats: [
           {stat: "sacks", value: "1"},
-          {stat: "solo", value: "67" },
+          {stat: "solo", value: "70" },
           {stat: "int", value: "4" }
           ], },
       {id: "2", name: "Michael Pittman", position: "WR", age: "24",
       note: "Leading the WR group in yds.",
       keystats: [
-        {stat: "rec", value: "68"},
-        {stat: "yds", value: "889"},
+        {stat: "rec", value: "76"},
+        {stat: "yds", value: "971"},
         {stat: "tds", value: "5"},
-        {stat: "y/r", value: "13.1"}
+        {stat: "y/r", value: "12.8"}
         ], }
     ];
   rookies = [
     {id: "0", name: "Kylen Granson", position: "TE", age: "21",
     note: "Out of Charleston.",
     keystats: [
-      {stat: "rec", value: "10"},
-      {stat: "recYds", value: "100"},
-      {stat: "avg", value: "10"},
+      {stat: "rec", value: "11"},
+      {stat: "recYds", value: "106"},
+      {stat: "avg", value: "9.6"},
       {stat: "td", value: "0"}
       ], },
     {id: "1", name: "Kwitty Paye", position: "DE", age: "22",
     note: "Out of Michigan, 6.2 261-pound, figures to make a big impact on the pass rush game.",
     keystats: [
-      {stat: "solo", value: "14"},
+      {stat: "solo", value: "15"},
       {stat: "sacks", value: "3"},
       {stat: "fr", value: "2"},
       {stat: "ff", value: "1"}
@@ -87,7 +87,7 @@ export class PlayerListComponent implements OnInit {
     {id: "2", name: "Dayo Odeyingbo", position: "DE", age: "21",
       note: "Out of Vanderbilt, 6.6 276-pound, recently activated.",
       keystats: [
-        {stat: "solo", value: "3"},
+        {stat: "solo", value: "4"},
         {stat: "sacks", value: "0.5"},
         {stat: "ff", value: "1"}
         ], }
