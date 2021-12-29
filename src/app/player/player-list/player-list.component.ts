@@ -40,7 +40,7 @@ export class PlayerListComponent implements OnInit {
         ], }
     ];
   tops = [
-      {id: "0", name: "Jonathon Taylor", position: "RB", age: "25",
+      {id: "0", name: "Jonathan Taylor", position: "RB", age: "25",
       note: "A stud in 2021. Rushing, receiving just about everywhere.",
       keystats: [
         {stat: "run atts", value: "297"},
