@@ -15,6 +15,23 @@ export class PlayerDefenseComponent implements OnInit {
   ngOnInit(): void {
     this.imageObject = [
       {
+        image: '../../assets/images/stats/player_def_2022_sacks_stats_graph_img.svg',
+        thumbImage:'../../assets/images/stats/player_def_2022_sacks_stats_graph_img.svg',
+        title: 'Colts 2022 Top Sackers'
+      },
+      {
+        image: '../../assets/images/stats/player_def_2022_tackles_stats_graph_img.svg',
+        thumbImage:'../../assets/images/stats/player_def_2022_tackles_stats_graph_img.svg',
+        title: 'Colts 2022 Top Tacklers'
+      },
+      {
+        image: '../../assets/images/stats/player_def_2022_ints_stats_graph_img.svg',
+        thumbImage:'../../assets/images/stats/player_def_2022_ints_stats_graph_img.svg',
+        title: 'Colts 2022 Top Interceptors'
+      }
+    ];
+    this.imageObject2 = [
+      {
         image: '../../assets/images/stats/player_def_2021_sacks_stats_graph_img.svg',
         thumbImage:'../../assets/images/stats/player_def_2021_sacks_stats_graph_img.svg',
         title: 'Colts 2021 Top Sackers'
@@ -28,23 +45,6 @@ export class PlayerDefenseComponent implements OnInit {
         image: '../../assets/images/stats/player_def_2021_ints_stats_graph_img.svg',
         thumbImage:'../../assets/images/stats/player_def_2021_ints_stats_graph_img.svg',
         title: 'Colts 2021 Top Interceptors'
-      }
-    ];
-    this.imageObject2 = [
-      {
-        image: '../../assets/images/stats/player_def_2020_sacks_stats_graph_img.svg',
-        thumbImage:'../../assets/images/stats/player_def_2020_sacks_stats_graph_img.svg',
-        title: 'Colts 2020 Top Sackers'
-      },
-      {
-        image: '../../assets/images/stats/player_def_2020_tackles_stats_graph_img.svg',
-        thumbImage:'../../assets/images/stats/player_def_2020_tackles_stats_graph_img.svg',
-        title: 'Colts 2020 Top Tacklers'
-      },
-      {
-        image: '../../assets/images/stats/player_def_2020_ints_stats_graph_img.svg',
-        thumbImage:'../../assets/images/stats/player_def_2020_ints_stats_graph_img.svg',
-        title: 'Colts 2020 Top Interceptors'
       }
     ];
   }

@@ -16,81 +16,72 @@ export class PlayerListComponent implements OnInit {
   //players: Player[];
 
   players = [
-      {id: "0", name: "Carson Wentz", position: "QB", age: "28",
+      {id: "0", name: "Matt Ryan", position: "QB", age: "37",
       note: "Wentz completes first season with Colts.",
       keystats: [
-        {stat: "cmp", value: "62.6%"},
-        {stat: "passYds", value: "3563"},
-        {stat: "ints", value: "6"},
-        {stat: "tds", value: "27"},
-        {stat: "rtng", value: "94.6"}
+        {stat: "cmp", value: "64%"},
+        {stat: "passYds", value: "352"},
+        {stat: "ints", value: "1"},
+        {stat: "tds", value: "1"},
+        {stat: "rtng", value: "83.1"}
         ], },
       {id: "1", name: "DeForest Buckner", position: "DT", age: "26",
       note: "Leading the Colts in sacks in 2021.",
       keystats: [
-        {stat: "sacks", value: "7.0"},
-        {stat: "solo", value: "40"},
+        {stat: "sacks", value: "0.0"},
+        {stat: "solo", value: "2"},
         {stat: "ff", value: "0"}
         ], },
-      {id: "2", name: "Darius Leonard", position: "LB", age: "26",
-      note: "The man with the punch leading turnovers in 2021",
+      {id: "2", name: "Stephon Gilmore", position: "CB", age: "31",
+      note: "The elite defender joins the Colts in 2022",
       keystats: [
-        {stat: "solo", value: "75"},
-        {stat: "int", value: "4"},
-        {stat: "ff", value: "8"}
+        {stat: "solo", value: "3"},
+        {stat: "int", value: "0"}
         ], }
     ];
   tops = [
       {id: "0", name: "Jonathan Taylor", position: "RB", age: "25",
       note: "A stud in 2021. Rushing, receiving just about everywhere.",
       keystats: [
-        {stat: "run atts", value: "332"},
-        {stat: "run yds", value: "1811" },
-        {stat: "avg yds", value: "5.8" },
-        {stat: "tds", value: "18" },
-        {stat: "rec atts", value: "40"},
-        {stat: "rec yds", value: "360"},
-        {stat: "y/r", value: "7.1"}
+        {stat: "run atts", value: "31"},
+        {stat: "run yds", value: "161" },
+        {stat: "avg yds", value: "5.2" },
+        {stat: "tds", value: "1" }
         ], },
-      {id: "1", name: "Kenny Moore", position: "CB", age: "26",
+      {id: "1", name: "Kwitty Paye", position: "CB", age: "23",
         note: "Leading the Colts in solo tackles.",
         keystats: [
-          {stat: "sacks", value: "1"},
-          {stat: "solo", value: "82" },
-          {stat: "int", value: "4" }
+          {stat: "sacks", value: "2"},
+          {stat: "solo", value: "6" }
           ], },
       {id: "2", name: "Michael Pittman", position: "WR", age: "24",
       note: "Leading the WR group in yds.",
       keystats: [
-        {stat: "rec", value: "88"},
-        {stat: "yds", value: "1082"},
-        {stat: "tds", value: "6"},
-        {stat: "y/r", value: "12.3"}
+        {stat: "rec", value: "9"},
+        {stat: "yds", value: "121"},
+        {stat: "tds", value: "1"},
+        {stat: "y/r", value: "13.4"}
         ], }
     ];
   rookies = [
-    {id: "0", name: "Kylen Granson", position: "TE", age: "21",
-    note: "Out of Charleston.",
+    {id: "0", name: "Alec Pierce", position: "WR", age: "22",
+    note: "Out of Cincinnati looks very promising.",
     keystats: [
-      {stat: "rec", value: "11"},
-      {stat: "recYds", value: "106"},
-      {stat: "avg", value: "9.6"},
+      {stat: "rec", value: "0"},
+      {stat: "recYds", value: "0"},
+      {stat: "avg", value: "0"},
       {stat: "td", value: "0"}
       ], },
-    {id: "1", name: "Kwitty Paye", position: "DE", age: "22",
-    note: "Out of Michigan, 6.2 261-pound, figures to make a big impact on the pass rush game.",
+    {id: "1", name: "Nick Cross", position: "S", age: "21",
+    note: "Out of Maryland great speed and coerage looks to make his mark in the NFL.",
     keystats: [
-      {stat: "solo", value: "16"},
-      {stat: "sacks", value: "4"},
-      {stat: "fr", value: "2"},
-      {stat: "ff", value: "1"}
+      {stat: "solo", value: "4"},
+      {stat: "int", value: "4"}
       ], },
-    {id: "2", name: "Dayo Odeyingbo", position: "DE", age: "21",
-      note: "Out of Vanderbilt, 6.6 276-pound, recently activated.",
+    {id: "2", name: "Bernhard Raimann", position: "T", age: "25",
+      note: "Out of Central Michigan getting some early plaing time at LT.",
       keystats: [
-        {stat: "solo", value: "5"},
-        {stat: "sacks", value: "0.5"},
-        {stat: "ff", value: "1"}
+        {stat: "games", value: "1"}
         ], }
   ]
   displayedColumns: string[] = ['name', 'position', 'info'];
@@ -102,19 +93,19 @@ export class PlayerListComponent implements OnInit {
   ngOnInit(): void {
     this.imageObject = [
       {
-        image: '../../assets/images/05-13-Wentz.jpg',
-        thumbImage:'../../assets/images/05-13-Wentz.jpg',
-        title: 'Carson Wentz 2021 Colts QB'
+        image: '../../assets/images/MRyan.jfif',
+        thumbImage:'../../assets/images/MRyan.jfif',
+        title: 'Matt Ryan 2022 Colts QB'
+      },
+      {
+        image: '../../assets/images/stats/ryan_2022_pass_ratings_graph_img.svg',
+        thumbImage:'../../assets/images/stats/ryan_2022_pass_ratings_graph_img.svg',
+        title: 'Ryan 2022 Passer Rating'
       },
       {
         image: '../../assets/images/stats/wentz_2021_pass_ratings_graph_img.svg',
         thumbImage:'../../assets/images/stats/wentz_2021_pass_ratings_graph_img.svg',
         title: 'Wentz 2021 Passer Rating'
-      },
-      {
-        image: '../../assets/images/stats/rivers_2020_pass_ratings_graph_img.svg',
-        thumbImage:'../../assets/images/stats/rivers_2020_pass_ratings_graph_img.svg',
-        title: 'Rivers 2020 Passer Rating'
       }
     ]
   }

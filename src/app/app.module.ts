@@ -24,7 +24,6 @@ import { NgImageSliderModule } from 'ng-image-slider';
 import { DefenseComponent } from './team/defense/defense.component';
 import { PlayerDefenseComponent } from './player/defense/defense.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +34,7 @@ import { PlayerDefenseComponent } from './player/defense/defense.component';
     OffenseComponent,
     PlayerOffenseComponent,
     DefenseComponent,
-    PlayerDefenseComponent      
+    PlayerDefenseComponent
   ],
   imports: [
     BrowserModule,
@@ -53,7 +52,7 @@ import { PlayerDefenseComponent } from './player/defense/defense.component';
     MatButtonModule,
     MatDividerModule,
     NgImageSliderModule
-                
+
   ],
   providers: [],
   bootstrap: [AppComponent]

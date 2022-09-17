@@ -17,6 +17,23 @@ export class OffenseComponent implements OnInit {
   ngOnInit(): void {
     this.imageObject = [
       {
+        image: '../../assets/images/stats/team_off_2022_run_stats_graph_img.svg',
+        thumbImage:'../../assets/images/stats/team_off_2022_run_stats_graph_img.svg',
+        title: 'Colts 2022 Team Rushing'
+      },
+      {
+        image: '../../assets/images/stats/team_off_2022_pass_stats_graph_img.svg',
+        thumbImage:'../../assets/images/stats/team_off_2022_pass_stats_graph_img.svg',
+        title: 'Colts 2022 Team Passing'
+      },
+      {
+        image: '../../assets/images/stats/team_off_2022_fdowns_stats_graph_img.svg',
+        thumbImage:'../../assets/images/stats/team_off_2022_fdowns_stats_graph_img.svg',
+        title: 'Colts 2022 Team First Downs'
+      }
+    ];
+    this.imageObject2 = [
+      {
         image: '../../assets/images/stats/team_off_2021_run_stats_graph_img.svg',
         thumbImage:'../../assets/images/stats/team_off_2021_run_stats_graph_img.svg',
         title: 'Colts 2021 Team Rushing'
@@ -30,23 +47,6 @@ export class OffenseComponent implements OnInit {
         image: '../../assets/images/stats/team_off_2021_fdowns_stats_graph_img.svg',
         thumbImage:'../../assets/images/stats/team_off_2021_fdowns_stats_graph_img.svg',
         title: 'Colts 2021 Team First Downs'
-      }
-    ];
-    this.imageObject2 = [
-      {
-        image: '../../assets/images/stats/team_off_2020_run_stats_graph_img.svg',
-        thumbImage:'../../assets/images/stats/team_off_2020_run_stats_graph_img.svg',
-        title: 'Colts 2020 Team Rushing'
-      },
-      {
-        image: '../../assets/images/stats/team_off_2020_pass_stats_graph_img.svg',
-        thumbImage:'../../assets/images/stats/team_off_2020_pass_stats_graph_img.svg',
-        title: 'Colts 2020 Team Passing'
-      },
-      {
-        image: '../../assets/images/stats/team_off_2020_fdowns_stats_graph_img.svg',
-        thumbImage:'../../assets/images/stats/team_off_2020_fdowns_stats_graph_img.svg',
-        title: 'Colts 2020 Team First Downs'
       }
     ];
   }
