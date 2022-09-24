@@ -19,14 +19,14 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Matt Ryan", position: "QB", age: "37",
       note: "Wentz completes first season with Colts.",
       keystats: [
-        {stat: "cmp", value: "64%"},
-        {stat: "passYds", value: "352"},
-        {stat: "ints", value: "1"},
+        {stat: "cmp", value: "60%"},
+        {stat: "passYds", value: "547"},
+        {stat: "ints", value: "4"},
         {stat: "tds", value: "1"},
-        {stat: "rtng", value: "83.1"}
+        {stat: "rtng", value: "63.9"}
         ], },
       {id: "1", name: "DeForest Buckner", position: "DT", age: "26",
-      note: "Leading the Colts in sacks in 2021.",
+      note: "Hoping for another great year in 2022.",
       keystats: [
         {stat: "sacks", value: "0.0"},
         {stat: "solo", value: "2"},
@@ -35,7 +35,7 @@ export class PlayerListComponent implements OnInit {
       {id: "2", name: "Stephon Gilmore", position: "CB", age: "31",
       note: "The elite defender joins the Colts in 2022",
       keystats: [
-        {stat: "solo", value: "3"},
+        {stat: "solo", value: "5"},
         {stat: "int", value: "0"}
         ], }
     ];
@@ -43,16 +43,16 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Jonathan Taylor", position: "RB", age: "25",
       note: "A stud in 2021. Rushing, receiving just about everywhere.",
       keystats: [
-        {stat: "run atts", value: "31"},
-        {stat: "run yds", value: "161" },
-        {stat: "avg yds", value: "5.2" },
+        {stat: "run atts", value: "40"},
+        {stat: "run yds", value: "215" },
+        {stat: "avg yds", value: "5.4" },
         {stat: "tds", value: "1" }
         ], },
       {id: "1", name: "Kwitty Paye", position: "CB", age: "23",
         note: "Leading the Colts in solo tackles.",
         keystats: [
           {stat: "sacks", value: "2"},
-          {stat: "solo", value: "6" }
+          {stat: "solo", value: "2" }
           ], },
       {id: "2", name: "Michael Pittman", position: "WR", age: "24",
       note: "Leading the WR group in yds.",
@@ -75,13 +75,13 @@ export class PlayerListComponent implements OnInit {
     {id: "1", name: "Nick Cross", position: "S", age: "21",
     note: "Out of Maryland great speed and coerage looks to make his mark in the NFL.",
     keystats: [
-      {stat: "solo", value: "4"},
-      {stat: "int", value: "4"}
+      {stat: "solo", value: "3"},
+      {stat: "int", value: "0"}
       ], },
     {id: "2", name: "Bernhard Raimann", position: "T", age: "25",
       note: "Out of Central Michigan getting some early plaing time at LT.",
       keystats: [
-        {stat: "games", value: "1"}
+        {stat: "games", value: "2"}
         ], }
   ]
   displayedColumns: string[] = ['name', 'position', 'info'];
