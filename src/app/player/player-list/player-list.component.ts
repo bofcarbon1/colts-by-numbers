@@ -17,25 +17,25 @@ export class PlayerListComponent implements OnInit {
 
   players = [
       {id: "0", name: "Matt Ryan", position: "QB", age: "37",
-      note: "Wentz completes first season with Colts.",
+      note: "MattY Ice joins the Colts in 2022.",
       keystats: [
-        {stat: "cmp", value: "60%"},
-        {stat: "passYds", value: "547"},
+        {stat: "cmp", value: "64/1%"},
+        {stat: "passYds", value: "769"},
         {stat: "ints", value: "4"},
-        {stat: "tds", value: "1"},
-        {stat: "rtng", value: "63.9"}
+        {stat: "tds", value: "3"},
+        {stat: "rtng", value: "77.2"}
         ], },
       {id: "1", name: "DeForest Buckner", position: "DT", age: "26",
       note: "Hoping for another great year in 2022.",
       keystats: [
         {stat: "sacks", value: "0.0"},
-        {stat: "solo", value: "2"},
-        {stat: "ff", value: "0"}
+        {stat: "solo", value: "6"},
+        {stat: "ff", value: "1"}
         ], },
       {id: "2", name: "Stephon Gilmore", position: "CB", age: "31",
       note: "The elite defender joins the Colts in 2022",
       keystats: [
-        {stat: "solo", value: "5"},
+        {stat: "solo", value: "13"},
         {stat: "int", value: "0"}
         ], }
     ];
@@ -43,9 +43,9 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Jonathan Taylor", position: "RB", age: "25",
       note: "A stud in 2021. Rushing, receiving just about everywhere.",
       keystats: [
-        {stat: "run atts", value: "40"},
-        {stat: "run yds", value: "215" },
-        {stat: "avg yds", value: "5.4" },
+        {stat: "run atts", value: "61"},
+        {stat: "run yds", value: "286" },
+        {stat: "avg yds", value: "4.7" },
         {stat: "tds", value: "1" }
         ], },
       {id: "1", name: "Kwitty Paye", position: "CB", age: "23",
@@ -57,26 +57,28 @@ export class PlayerListComponent implements OnInit {
       {id: "2", name: "Michael Pittman", position: "WR", age: "24",
       note: "Leading the WR group in yds.",
       keystats: [
-        {stat: "rec", value: "9"},
-        {stat: "yds", value: "121"},
+        {stat: "rec", value: "17"},
+        {stat: "yds", value: "193"},
         {stat: "tds", value: "1"},
-        {stat: "y/r", value: "13.4"}
+        {stat: "y/r", value: "11.4"}
         ], }
     ];
   rookies = [
     {id: "0", name: "Alec Pierce", position: "WR", age: "22",
     note: "Out of Cincinnati looks very promising.",
     keystats: [
-      {stat: "rec", value: "0"},
-      {stat: "recYds", value: "0"},
-      {stat: "avg", value: "0"},
+      {stat: "rec", value: "3"},
+      {stat: "recYds", value: "61"},
+      {stat: "avg", value: "20.3"},
       {stat: "td", value: "0"}
       ], },
-    {id: "1", name: "Nick Cross", position: "S", age: "21",
-    note: "Out of Maryland great speed and coerage looks to make his mark in the NFL.",
+    {id: "1", name: "Jelani Woods", position: "TE", age: "23",
+    note: "Out of Oklahoma State the big man making fast adjusments to the NFL.",
     keystats: [
-      {stat: "solo", value: "3"},
-      {stat: "int", value: "0"}
+      {stat: "rec", value: "2"},
+      {stat: "recYds", value: "13"},
+      {stat: "avg", value: "6.5"},
+      {stat: "td", value: "2"}
       ], },
     {id: "2", name: "Bernhard Raimann", position: "T", age: "25",
       note: "Out of Central Michigan getting some early plaing time at LT.",
