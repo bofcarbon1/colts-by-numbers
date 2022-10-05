@@ -19,23 +19,23 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Matt Ryan", position: "QB", age: "37",
       note: "MattY Ice joins the Colts in 2022.",
       keystats: [
-        {stat: "cmp", value: "64/1%"},
-        {stat: "passYds", value: "769"},
-        {stat: "ints", value: "4"},
-        {stat: "tds", value: "3"},
-        {stat: "rtng", value: "77.2"}
+        {stat: "cmp", value: "102"},
+        {stat: "passYds", value: "1125"},
+        {stat: "ints", value: "5"},
+        {stat: "tds", value: "5"},
+        {stat: "rtng", value: "85"}
         ], },
-      {id: "1", name: "DeForest Buckner", position: "DT", age: "26",
-      note: "Hoping for another great year in 2022.",
+      {id: "1", name: "Zaire Franklin", position: "LB", age: "26",
+      note: "Leading the Colts in total tackles in 2022.",
       keystats: [
         {stat: "sacks", value: "0.0"},
-        {stat: "solo", value: "6"},
-        {stat: "ff", value: "1"}
+        {stat: "solo", value: "30"},
+        {stat: "tfl", value: "2"}
         ], },
       {id: "2", name: "Stephon Gilmore", position: "CB", age: "31",
       note: "The elite defender joins the Colts in 2022",
       keystats: [
-        {stat: "solo", value: "13"},
+        {stat: "solo", value: "14"},
         {stat: "int", value: "0"}
         ], }
     ];
@@ -43,41 +43,41 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Jonathan Taylor", position: "RB", age: "25",
       note: "A stud in 2021. Rushing, receiving just about everywhere.",
       keystats: [
-        {stat: "run atts", value: "61"},
-        {stat: "run yds", value: "286" },
-        {stat: "avg yds", value: "4.7" },
+        {stat: "run atts", value: "81"},
+        {stat: "run yds", value: "328" },
+        {stat: "avg yds", value: "4.0" },
         {stat: "tds", value: "1" }
         ], },
-      {id: "1", name: "Kwitty Paye", position: "CB", age: "23",
+      {id: "1", name: "Kwitty Paye", position: "DE", age: "24",
         note: "Leading the Colts in solo tackles.",
         keystats: [
-          {stat: "sacks", value: "2"},
-          {stat: "solo", value: "2" }
+          {stat: "sacks", value: "3"},
+          {stat: "solo", value: "12" }
           ], },
       {id: "2", name: "Michael Pittman", position: "WR", age: "24",
       note: "Leading the WR group in yds.",
       keystats: [
-        {stat: "rec", value: "17"},
-        {stat: "yds", value: "193"},
+        {stat: "rec", value: "20"},
+        {stat: "yds", value: "224"},
         {stat: "tds", value: "1"},
-        {stat: "y/r", value: "11.4"}
+        {stat: "y/r", value: "11.2"}
         ], }
     ];
   rookies = [
     {id: "0", name: "Alec Pierce", position: "WR", age: "22",
     note: "Out of Cincinnati looks very promising.",
     keystats: [
-      {stat: "rec", value: "3"},
-      {stat: "recYds", value: "61"},
-      {stat: "avg", value: "20.3"},
+      {stat: "rec", value: "7"},
+      {stat: "recYds", value: "141"},
+      {stat: "avg", value: "20.1"},
       {stat: "td", value: "0"}
       ], },
     {id: "1", name: "Jelani Woods", position: "TE", age: "23",
     note: "Out of Oklahoma State the big man making fast adjusments to the NFL.",
     keystats: [
-      {stat: "rec", value: "2"},
-      {stat: "recYds", value: "13"},
-      {stat: "avg", value: "6.5"},
+      {stat: "rec", value: "3"},
+      {stat: "recYds", value: "46"},
+      {stat: "avg", value: "15.3"},
       {stat: "td", value: "2"}
       ], },
     {id: "2", name: "Bernhard Raimann", position: "T", age: "25",
