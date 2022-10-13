@@ -19,24 +19,24 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Matt Ryan", position: "QB", age: "37",
       note: "MattY Ice joins the Colts in 2022.",
       keystats: [
-        {stat: "cmp", value: "102"},
-        {stat: "passYds", value: "1125"},
-        {stat: "ints", value: "5"},
+        {stat: "cmp", value: "128"},
+        {stat: "passYds", value: "1376"},
+        {stat: "ints", value: "7"},
         {stat: "tds", value: "5"},
-        {stat: "rtng", value: "85"}
+        {stat: "rtng", value: "79.8"}
         ], },
       {id: "1", name: "Zaire Franklin", position: "LB", age: "26",
       note: "Leading the Colts in total tackles in 2022.",
       keystats: [
         {stat: "sacks", value: "0.0"},
-        {stat: "solo", value: "30"},
+        {stat: "solo", value: "35"},
         {stat: "tfl", value: "2"}
         ], },
       {id: "2", name: "Stephon Gilmore", position: "CB", age: "31",
       note: "The elite defender joins the Colts in 2022",
       keystats: [
-        {stat: "solo", value: "14"},
-        {stat: "int", value: "0"}
+        {stat: "solo", value: "18"},
+        {stat: "int", value: "1"}
         ], }
     ];
   tops = [
@@ -57,8 +57,8 @@ export class PlayerListComponent implements OnInit {
       {id: "2", name: "Michael Pittman", position: "WR", age: "24",
       note: "Leading the WR group in yds.",
       keystats: [
-        {stat: "rec", value: "20"},
-        {stat: "yds", value: "224"},
+        {stat: "rec", value: "25"},
+        {stat: "yds", value: "283"},
         {stat: "tds", value: "1"},
         {stat: "y/r", value: "11.2"}
         ], }
@@ -67,9 +67,9 @@ export class PlayerListComponent implements OnInit {
     {id: "0", name: "Alec Pierce", position: "WR", age: "22",
     note: "Out of Cincinnati looks very promising.",
     keystats: [
-      {stat: "rec", value: "7"},
-      {stat: "recYds", value: "141"},
-      {stat: "avg", value: "20.1"},
+      {stat: "rec", value: "15"},
+      {stat: "recYds", value: "222"},
+      {stat: "avg", value: "14.8"},
       {stat: "td", value: "0"}
       ], },
     {id: "1", name: "Jelani Woods", position: "TE", age: "23",
@@ -83,7 +83,7 @@ export class PlayerListComponent implements OnInit {
     {id: "2", name: "Bernhard Raimann", position: "T", age: "25",
       note: "Out of Central Michigan getting some early plaing time at LT.",
       keystats: [
-        {stat: "games", value: "2"}
+        {stat: "games", value: "3"}
         ], }
   ]
   displayedColumns: string[] = ['name', 'position', 'info'];
