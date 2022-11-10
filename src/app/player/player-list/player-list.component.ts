@@ -19,25 +19,25 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Sam Ehlinger", position: "QB", age: "24",
       note: "Out of the University of Texas.",
       keystats: [
-        {stat: "cmp", value: "17"},
-        {stat: "passYds", value: "201"},
-        {stat: "ints", value: "0"},
+        {stat: "cmp", value: "52"},
+        {stat: "passYds", value: "304"},
+        {stat: "ints", value: "1"},
         {stat: "tds", value: "0"},
-        {stat: "rtng", value: "100.1"}
+        {stat: "rtng", value: "69.7"}
         ], },
       {id: "1", name: "Zaire Franklin", position: "LB", age: "26",
       note: "Leading the Colts in total tackles in 2022.",
       keystats: [
-        {stat: "sacks", value: "0.0"},
-        {stat: "solo", value: "51"},
-        {stat: "tfl", value: "5"}
+        {stat: "sacks", value: "0.5"},
+        {stat: "solo", value: "56"},
+        {stat: "tfl", value: "7"}
         ], },
       {id: "2", name: "Grover Stewart", position: "CB", age: "31",
       note: "Grover is always in the trenches for the Colts",
       keystats: [
-        {stat: "solo", value: "30"},
+        {stat: "solo", value: "34"},
         {stat: "sacks", value: "2"},
-        {stat: "tfl", value: "4"}
+        {stat: "tfl", value: "6"}
         ], }
     ];
   tops = [
@@ -52,39 +52,39 @@ export class PlayerListComponent implements OnInit {
       {id: "1", name: "Yannick Nqakoue", position: "DE", age: "27",
         note: "Leading the Colts in sacks.",
         keystats: [
-          {stat: "sacks", value: "4"},
+          {stat: "sacks", value: "4.5"},
           {stat: "solo", value: "15" }
           ], },
       {id: "2", name: "Michael Pittman", position: "WR", age: "24",
       note: "Leading the WR group in yds.",
       keystats: [
-        {stat: "rec", value: "51"},
-        {stat: "yds", value: "528"},
+        {stat: "rec", value: "54"},
+        {stat: "yds", value: "550"},
         {stat: "tds", value: "1"},
-        {stat: "y/r", value: "10.4"}
+        {stat: "y/r", value: "10.2"}
         ], }
     ];
   rookies = [
     {id: "0", name: "Alec Pierce", position: "WR", age: "22",
     note: "Out of Cincinnati having a great rookie year.",
     keystats: [
-      {stat: "rec", value: "24"},
-      {stat: "recYds", value: "373"},
-      {stat: "avg", value: "15.3"},
+      {stat: "rec", value: "25"},
+      {stat: "recYds", value: "396"},
+      {stat: "avg", value: "15.8"},
       {stat: "td", value: "1"}
       ], },
     {id: "1", name: "Jelani Woods", position: "TE", age: "23",
     note: "Out of Oklahoma State the big man making fast adjusments to the NFL.",
     keystats: [
-      {stat: "rec", value: "6"},
-      {stat: "recYds", value: "77"},
-      {stat: "avg", value: "12.8"},
+      {stat: "rec", value: "7"},
+      {stat: "recYds", value: "79"},
+      {stat: "avg", value: "11.3"},
       {stat: "td", value: "3"}
       ], },
     {id: "2", name: "Rodney Thomas II", position: "LB", age: "24",
       note: "Out of Yale in the Ivy League adopting quickly to the NFL level.",
       keystats: [
-        {stat: "solo", value: "13"},
+        {stat: "solo", value: "17"},
         {stat: "int", value: "1"}
         ], }
   ]
