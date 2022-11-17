@@ -16,52 +16,52 @@ export class PlayerListComponent implements OnInit {
   //players: Player[];
 
   players = [
-      {id: "0", name: "Sam Ehlinger", position: "QB", age: "24",
-      note: "Out of the University of Texas.",
+      {id: "0", name: "Matt Ryan", position: "QB", age: "37",
+      note: "Back again as starting QB for the 2022 season.",
       keystats: [
-        {stat: "cmp", value: "52"},
-        {stat: "passYds", value: "304"},
-        {stat: "ints", value: "1"},
-        {stat: "tds", value: "0"},
-        {stat: "rtng", value: "69.7"}
+        {stat: "cmp", value: "224"},
+        {stat: "passYds", value: "2280"},
+        {stat: "ints", value: "9"},
+        {stat: "tds", value: "10"},
+        {stat: "rtng", value: "86.8"}
         ], },
       {id: "1", name: "Zaire Franklin", position: "LB", age: "26",
       note: "Leading the Colts in total tackles in 2022.",
       keystats: [
         {stat: "sacks", value: "0.5"},
-        {stat: "solo", value: "56"},
-        {stat: "tfl", value: "7"}
+        {stat: "solo", value: "63"},
+        {stat: "tfl", value: "8"}
         ], },
       {id: "2", name: "Grover Stewart", position: "CB", age: "31",
       note: "Grover is always in the trenches for the Colts",
       keystats: [
-        {stat: "solo", value: "34"},
-        {stat: "sacks", value: "2"},
-        {stat: "tfl", value: "6"}
+        {stat: "solo", value: "37"},
+        {stat: "sacks", value: "3"},
+        {stat: "tfl", value: "8"}
         ], }
     ];
   tops = [
       {id: "0", name: "Jonathan Taylor", position: "RB", age: "25",
       note: "A stud in 2021. Rushing, receiving just about everywhere.",
       keystats: [
-        {stat: "run atts", value: "107"},
-        {stat: "run yds", value: "462" },
-        {stat: "avg yds", value: "4.4" },
-        {stat: "tds", value: "1" }
+        {stat: "run atts", value: "129"},
+        {stat: "run yds", value: "609" },
+        {stat: "avg yds", value: "4.7" },
+        {stat: "tds", value: "2" }
         ], },
-      {id: "1", name: "Yannick Nqakoue", position: "DE", age: "27",
+      {id: "1", name: "DeForest Buckner", position: "DT", age: "27",
         note: "Leading the Colts in sacks.",
         keystats: [
-          {stat: "sacks", value: "4.5"},
-          {stat: "solo", value: "15" }
+          {stat: "sacks", value: "5.5"},
+          {stat: "solo", value: "22" }
           ], },
       {id: "2", name: "Michael Pittman", position: "WR", age: "24",
       note: "Leading the WR group in yds.",
       keystats: [
-        {stat: "rec", value: "54"},
-        {stat: "yds", value: "550"},
+        {stat: "rec", value: "61"},
+        {stat: "yds", value: "603"},
         {stat: "tds", value: "1"},
-        {stat: "y/r", value: "10.2"}
+        {stat: "y/r", value: "9.9"}
         ], }
     ];
   rookies = [
@@ -97,14 +97,9 @@ export class PlayerListComponent implements OnInit {
   ngOnInit(): void {
     this.imageObject = [
       {
-        image: '../../assets/images/SamEhlinger.jfif',
-        thumbImage:'../../assets/images/SamEhlinger.jfif',
-        title: 'Sam Ehlinger 2022 Colts QB'
-      },
-      {
-        image: '../../assets/images/stats/ehlinger_2022_pass_ratings_graph_img.svg',
-        thumbImage:'../../assets/images/stats/ehlinger_2022_pass_ratings_graph_img.svg',
-        title: 'Ehlinger 2022 Passer Rating'
+        image: '../../assets/images/MRyan.jfif',
+        thumbImage:'../../assets/images/MRyan.jfif',
+        title: 'Matt Ryan 2022 Colts QB'
       },
       {
         image: '../../assets/images/stats/ryan_2022_pass_ratings_graph_img.svg',
