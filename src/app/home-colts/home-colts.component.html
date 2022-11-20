@@ -1,0 +1,83 @@
+  <mat-toolbar class="mat-toolbar">
+    <mat-toolbar-row>
+      Colts By Numbers:&nbsp;&nbsp;
+        <div style="border: 1px solid whitesmoke ">
+          <a routerLink="/home">&nbsp;Site-Home&nbsp;</a>
+          <a routerLink="/team">&nbsp;Team&nbsp;</a>
+          <a routerLink="/player">&nbsp;Players&nbsp;</a>
+        </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <div flex layout="row">
+    <div layout="column" flex>
+      <div class="box1">
+        <mat-tab-group headerPosition="below">
+          <mat-tab class="myTab" label="News">
+            <div class="myTabContent">
+              <h3>What's The Scoop!</h3>
+              <p>
+                25... points for the Colts.
+                <br/>
+                20... points for the Raiders. Colts get 'W' in Jeff Saturday's Head Coaching debut.
+               <!-- <a style="color: black; font-weight: bold;" href="https://www.youtube.com/watch?v=ce13PozKFfg">Colts at 49ers Game 7</a>
+               -->
+              </p>
+            </div>
+          </mat-tab>
+          <mat-tab label="Fan Base">
+            <div class="myTabContent">
+              <h3>There are Colts Fans Around the World</h3>
+              <p>
+                Find them on your favorite media sites
+                <br/>
+              </p>
+            </div>
+          </mat-tab>
+          <mat-tab label="About">
+            <div class="myTabContent">
+              <h3>Why Colts By Numbers?</h3>
+              <p>2... reasons why I started this project.
+                <br/>Use the Python computer language and track
+                Colts football.
+                <br/>Pro Football Resource is a great source for stats . Players, teams,
+                offense, defense and rankings.
+                <br/>I built the web UI in Angular
+                Material with Flex and responsive design.
+              </p>
+            </div>
+          </mat-tab>
+        </mat-tab-group>
+        <img class="main-img" mat-card-image src="../../assets/images/coltsshoe.jpg" />
+
+      </div>
+      <div class="box2">
+        <mat-card flex="100" layout-margin layout-padding layout-align="center stretch" >
+          <mat-card-header>
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title>The Process</mat-card-title>
+            <mat-card-subtitle>Players - Stats - Visuals</mat-card-subtitle>
+          </mat-card-header>
+            <img class="main-img" mat-card-image src="../../assets/images/MRyan.jfif" />
+            <img class="arrow-img" mat-card-image src="../../assets/images/rightBlueArrow.jpg" />
+            <img class="main-img" mat-card-image src="../../assets/images/math.jpg" />
+            <img class="arrow-img" mat-card-image src="../../assets/images/rightBlueArrow.jpg" />
+            <img class="main-img" mat-card-image src="../../assets/images/graphs.png" />
+          <mat-card-content>
+            <p>
+              We take game stats and store them. Run some cool Python code
+              using AI with statistical math calculations.
+              <br/>Display the results in awesome visuals and share them with Colts fans.
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      <div class="box3">
+        All rights reserved Brian Quinn
+      </div>
+    </div>
+  </div>
+
+
+
+
+

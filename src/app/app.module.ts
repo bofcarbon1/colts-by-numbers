@@ -16,6 +16,8 @@ import { MatButtonModule } from '@angular/material/button'
 import { MatDividerModule } from '@angular/material/divider';
 import { DialogBodyComponent } from './dialog-body/dialog-body.component';
 import { HomeComponent } from './home/home.component';
+import { WorkComponent } from './work/work.component';
+import { HomeColtsComponent } from './home-colts/home-colts.component';
 import { PlayerListComponent } from './player/player-list/player-list.component';
 import { TeamComponent } from './team/team.component';
 import { OffenseComponent } from './team/offense/offense.component';
@@ -28,6 +30,8 @@ import { PlayerDefenseComponent } from './player/defense/defense.component';
   declarations: [
     AppComponent,
     HomeComponent,
+    WorkComponent,
+    HomeColtsComponent,
     PlayerListComponent,
     DialogBodyComponent,
     TeamComponent,
