@@ -1,0 +1,41 @@
+<mat-toolbar class="mat-toolbar">
+   <mat-toolbar-row>
+     Project History:&nbsp;&nbsp;
+       <div style="border: 1px solid whitesmoke ">
+         <a routerLink="/home">&nbsp;Site-Home&nbsp;</a>
+         <a routerLink="/work">&nbsp;Work-Home&nbsp;</a>
+       </div>
+   </mat-toolbar-row>
+ </mat-toolbar>
+ <div flex layout="row">
+   <div layout="column" flex>
+     <div class="box1">
+      <mat-table #table [dataSource]="allprojects" class="projects-table mat-elevation-z8"
+       (matSortChange)="sortData($event)"
+        matSort matSortActive="Year" matSortDirection="desc" matSortDisableClear>
+        <ng-container matColumnDef="Project">
+          <mat-header-cell *matHeaderCellDef>Project</mat-header-cell>
+          <mat-cell *matCellDef="let project">{{project.name}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="Year">
+          <mat-header-cell *matHeaderCellDef mat-sort-header>Year</mat-header-cell>
+          <mat-cell class="description-cell"
+                    *matCellDef="let project">{{project.year}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="Notes">
+          <mat-header-cell *matHeaderCellDef>Notes</mat-header-cell>
+          <mat-cell class="duration-cell"
+                    *matCellDef="let project">{{project.note}}</mat-cell>
+        </ng-container>
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+      </mat-table>
+     </div>
+
+     <div class="box3">
+       All rights reserved Brian Quinn
+     </div>
+   </div>
+ </div>

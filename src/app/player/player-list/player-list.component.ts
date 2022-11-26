@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Player } from '../player';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { DialogBodyComponent } from '../../dialog-body/dialog-body.component';
@@ -88,7 +88,7 @@ export class PlayerListComponent implements OnInit {
         {stat: "int", value: "1"}
         ], }
   ]
-  displayedColumns: string[] = ['name', 'position', 'info'];
+  displayedColumns = ['Name', 'Position', 'Info'];
 
   public imageObject;
 

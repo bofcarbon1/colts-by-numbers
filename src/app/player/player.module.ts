@@ -5,19 +5,20 @@ import { MatTableModule } from '@angular/material/table';
 import { MatSort } from '@angular/material/sort';
 import { PlayerOffenseComponent } from './offense/offense.component';
 import { PlayerDefenseComponent } from './defense/defense.component';
+import { CdkColumnDef } from '@angular/cdk/table';
 
 @NgModule({
   imports: [
     CommonModule,
-    MatTableModule, 
-    MatSort    
-  ],  
+    MatTableModule,
+    MatSort
+  ],
   declarations: [
     PlayerListComponent,
     PlayerOffenseComponent,
-    PlayerDefenseComponent    
+    PlayerDefenseComponent
   ],
-  providers: [],
+  providers: [CdkColumnDef],
   exports: []
 })
 export class PlayerModule { }

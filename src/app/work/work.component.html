@@ -3,13 +3,26 @@
      My Work:&nbsp;&nbsp;
        <div style="border: 1px solid whitesmoke ">
          <a routerLink="/home">&nbsp;Site-Home&nbsp;</a>
-         <a routerLink="/work">&nbsp;Resume&nbsp;</a>
+         <a routerLink="/project">&nbsp;Project-History&nbsp;</a>
        </div>
    </mat-toolbar-row>
  </mat-toolbar>
  <div flex layout="row">
    <div layout="column" flex>
      <div class="box1">
+      <span>
+        <p>Providing web apps, services & database work</p>
+        <p>
+            <strong>Check out my links: </strong>
+            <ng-template  ngFor let-sitelink [ngForOf]="sitelinks">
+               <a href={{sitelink.sitelink}}>{{sitelink.sitename}} &nbsp; </a>
+            </ng-template>
+        </p>
+      </span>
+      <span>
+        <p><span type='tel'>{{phone}}</span></p>
+        <p>{{email}}</p>
+      </span>
        <img class="main-img" mat-card-image src="../../assets/images/dilbert.png" />
      </div>
      <div class="box2">

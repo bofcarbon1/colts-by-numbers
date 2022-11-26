@@ -7,6 +7,12 @@ a {
     color: white;
 }
 
+::ng-deep mat-table {
+    font-size: .5 em;
+}
+
+
+
 h3 {
     font-weight: bold;
     background-color: lightgray;
@@ -20,33 +26,33 @@ p {
     font-family: 'Permanent Marker', cursive;
     font-size: 1.5em;
     margin: 1%;
-} 
+}
 
-.box3, .box2, .box1 {  
+.box3, .box2, .box1 {
     display:flex;
     box-sizing: border-box;
     max-width:100%;
-    max-height: 100%; 
-    margin: .5%; 
+    max-height: 100%;
+    margin: .5%;
     background-color: white;
 }
 
-.box1 {  
+.box1 {
     max-height:75%;
     min-height: 35%;
     //flex:1 1 75%;
-    align-content:  space-between;    
+    align-content:  space-between;
     padding: .5%;
-    background-color:  rgb(50, 50, 196);   
+    background-color:  rgb(50, 50, 196);
 }
 
-.box2 {    
+.box2 {
     max-height:75%;
     min-height: 65%;
-    flex:1 1 75%;  
+    flex:1 1 75%;
 }
 
-.box3 {  
+.box3 {
     max-height:5%;
     flex:1 1 5%;
 }

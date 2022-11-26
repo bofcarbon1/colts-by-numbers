@@ -14,18 +14,23 @@
     <div class="box1">
       <div class="container">
         <h3>&nbsp;&nbsp;Players To Watch</h3>
-        <table mat-table class="mat-elevation-z8">
-          <th mat-header-cell> Name </th>
-          <th mat-header-cell> Position </th>
-          <th mat-header-cell> Info </th>
-          <tr mat-row *ngFor="let player of players">
-            <td mat-cell>{{player.name}}</td>
-            <td mat-cell>{{player.position}}</td>
-            <td mat-cell><a (click)="onInfoClick(player)">
-              <img  src="../../../assets/images/icons8-info.svg" /></a>
-            </td>
-          </tr>
-        </table>
+        <mat-table #table [dataSource]="players" >
+          <ng-container matColumnDef="Name">
+            <mat-header-cell *matHeaderCellDef> Name </mat-header-cell>
+            <mat-cell *matCellDef="let tops">{{tops.name}}</mat-cell>
+          </ng-container>
+          <ng-container matColumnDef="Position">
+            <mat-header-cell *matHeaderCellDef> Position </mat-header-cell>
+            <mat-cell *matCellDef="let tops">{{tops.position}}</mat-cell>
+          </ng-container>
+          <ng-container matColumnDef="Info">
+            <mat-header-cell *matHeaderCellDef> Info </mat-header-cell>
+            <mat-cell *matCellDef="let tops"><a (click)="onInfoClick(tops)">
+              <img  src="../../../assets/images/icons8-info.svg" /></a></mat-cell>
+          </ng-container>
+          <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+          <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+        </mat-table>
       </div>
       <div class="contaner">
         <mat-card flex="100" layout-margin layout-padding layout-align="center stretch" >
@@ -34,18 +39,23 @@
       </div>
       <div class="container">
         <h3>&nbsp;&nbsp;Top Numbers</h3>
-        <table mat-table class="mat-elevation-z8">
-          <th mat-header-cell> Name </th>
-          <th mat-header-cell> Position </th>
-          <th mat-header-cell> Info </th>
-          <tr mat-row *ngFor="let top of tops">
-            <td mat-cell>{{top.name}}</td>
-            <td mat-cell>{{top.position}}</td>
-            <td mat-cell><a (click)="onInfoClick(top)">
-              <img  src="../../../assets/images/icons8-info.svg" /></a>
-            </td>
-          </tr>
-        </table>
+        <mat-table #table [dataSource]="tops" class="mat-elevation-z8">
+          <ng-container matColumnDef="Name">
+            <mat-header-cell *matHeaderCellDef> Name </mat-header-cell>
+            <mat-cell *matCellDef="let tops">{{tops.name}}</mat-cell>
+          </ng-container>
+          <ng-container matColumnDef="Position">
+            <mat-header-cell *matHeaderCellDef> Position </mat-header-cell>
+            <mat-cell *matCellDef="let tops">{{tops.position}}</mat-cell>
+          </ng-container>
+          <ng-container matColumnDef="Info">
+            <mat-header-cell *matHeaderCellDef> Info </mat-header-cell>
+            <mat-cell *matCellDef="let tops"><a (click)="onInfoClick(tops)">
+              <img  src="../../../assets/images/icons8-info.svg" /></a></mat-cell>
+          </ng-container>
+          <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+          <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+        </mat-table>
       </div>
       <div class="container">
         <mat-card flex="100" layout-margin layout-padding layout-align="center stretch" >
@@ -53,26 +63,31 @@
         </mat-card>
       </div>
       <div class="container">
-        <h3>&nbsp;&nbsp;Rookie Watch</h3>
-        <table mat-table class="mat-elevation-z8">
-          <th mat-header-cell> Name </th>
-          <th mat-header-cell> Position </th>
-          <th mat-header-cell> Info </th>
-          <tr mat-row *ngFor="let rookie of rookies">
-            <td mat-cell>{{rookie.name}}</td>
-            <td mat-cell>{{rookie.position}}</td>
-            <td mat-cell><a (click)="onInfoClick(rookie)">
-              <img  src="../../../assets/images/icons8-info.svg" /></a>
-            </td>
-          </tr>
-        </table>
+      <h3>&nbsp;&nbsp;Rookie Watch</h3>
+        <mat-table #table [dataSource]="rookies" class="mat-elevation-z14">
+          <ng-container matColumnDef="Name">
+            <mat-header-cell *matHeaderCellDef>Name </mat-header-cell>
+            <mat-cell *matCellDef="let rookies">{{rookies.name}}</mat-cell>
+          </ng-container>
+          <ng-container matColumnDef="Position">
+            <mat-header-cell *matHeaderCellDef> Position </mat-header-cell>
+            <mat-cell *matCellDef="let rookies">{{rookies.position}}</mat-cell>
+          </ng-container>
+          <ng-container matColumnDef="Info">
+            <mat-header-cell *matHeaderCellDef> Info </mat-header-cell>
+            <mat-cell *matCellDef="let rookies"><a (click)="onInfoClick(rookies)">
+              <img  src="../../../assets/images/icons8-info.svg" /></a></mat-cell>
+          </ng-container>
+          <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+          <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+        </mat-table>
       </div>
     </div>
     <div class="box2">
       <div class="container">
         <h3>&nbsp;&nbsp;Matty Ice Land</h3>
         <p>
-          86.8... QB rating for Ryan in 2022.
+          87.1... QB rating for Ryan in 2022.
         </p>
         <ng-image-slider #nav
         [images]="imageObject"
@@ -86,15 +101,13 @@
       <div class="container">
         <h3>&nbsp;&nbsp;Players Table</h3>
         <p>
-          Game 10 Highlights...
+          Game 11 Highlights...
           <br/>
-          147... yds rushing including a 66 yard TD for RB Jonathan Taylor  (PFR).
+          75... yds receiving for WR Michael Pittman (PFR).
           <br/>
-          76... yds receiving for WR Parris Campbell. Having a great season (PFR).
+          1.5... sacks for Yannick DE Nqakoue leads the team in sacks with 6.5 (PFR).
           <br/>
-          53... yds receiving for TE Kylen Granson. Hitting his stride (PFR).
-          <br/>
-          7... solo tackles for LB Zaire Franklin. Leads the team in tackles (PFR).
+          5... solo tackles for LB Zaire Franklin. Leads the team in combined tackles with 110 (PFR).
           <br/>
           <br/>
         </p>

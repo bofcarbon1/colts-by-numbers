@@ -14,9 +14,12 @@ import { MatListModule } from '@angular/material/list';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatButtonModule } from '@angular/material/button'
 import { MatDividerModule } from '@angular/material/divider';
+import { MatSortModule } from '@angular/material/sort';
+import { MatTableModule } from '@angular/material/table';
 import { DialogBodyComponent } from './dialog-body/dialog-body.component';
 import { HomeComponent } from './home/home.component';
 import { WorkComponent } from './work/work.component';
+import { ProjectComponent } from './work/project/project.component';
 import { HomeColtsComponent } from './home-colts/home-colts.component';
 import { PlayerListComponent } from './player/player-list/player-list.component';
 import { TeamComponent } from './team/team.component';
@@ -25,12 +28,14 @@ import { PlayerOffenseComponent } from './player/offense/offense.component';
 import { NgImageSliderModule } from 'ng-image-slider';
 import { DefenseComponent } from './team/defense/defense.component';
 import { PlayerDefenseComponent } from './player/defense/defense.component';
+import { CdkColumnDef } from '@angular/cdk/table';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     WorkComponent,
+    ProjectComponent,
     HomeColtsComponent,
     PlayerListComponent,
     DialogBodyComponent,
@@ -48,17 +53,18 @@ import { PlayerDefenseComponent } from './player/defense/defense.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatSidenavModule,
-    MatToolbarModule,
     MatListModule,
     MatCardModule,
     MatTabsModule,
     MatDialogModule,
     MatButtonModule,
     MatDividerModule,
+    MatTableModule,
+    MatSortModule,
     NgImageSliderModule
 
   ],
-  providers: [],
+  providers: [CdkColumnDef],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
