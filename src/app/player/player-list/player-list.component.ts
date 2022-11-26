@@ -19,23 +19,23 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Matt Ryan", position: "QB", age: "37",
       note: "Back again as starting QB for the 2022 season.",
       keystats: [
-        {stat: "cmp", value: "224"},
-        {stat: "passYds", value: "2280"},
+        {stat: "cmp", value: "247"},
+        {stat: "passYds", value: "2443"},
         {stat: "ints", value: "9"},
         {stat: "tds", value: "10"},
-        {stat: "rtng", value: "86.8"}
+        {stat: "rtng", value: "87.1"}
         ], },
       {id: "1", name: "Zaire Franklin", position: "LB", age: "26",
       note: "Leading the Colts in total tackles in 2022.",
       keystats: [
-        {stat: "sacks", value: "0.5"},
-        {stat: "solo", value: "63"},
+        {stat: "sacks", value: "1.0"},
+        {stat: "solo", value: "68"},
         {stat: "tfl", value: "8"}
         ], },
       {id: "2", name: "Grover Stewart", position: "CB", age: "31",
       note: "Grover is always in the trenches for the Colts",
       keystats: [
-        {stat: "solo", value: "37"},
+        {stat: "solo", value: "38"},
         {stat: "sacks", value: "3"},
         {stat: "tfl", value: "8"}
         ], }
@@ -44,33 +44,33 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Jonathan Taylor", position: "RB", age: "25",
       note: "A stud in 2021. Rushing, receiving just about everywhere.",
       keystats: [
-        {stat: "run atts", value: "129"},
-        {stat: "run yds", value: "609" },
-        {stat: "avg yds", value: "4.7" },
-        {stat: "tds", value: "2" }
+        {stat: "run atts", value: "151"},
+        {stat: "run yds", value: "693" },
+        {stat: "yds/att", value: "4.6" },
+        {stat: "tds", value: "3" }
         ], },
       {id: "1", name: "DeForest Buckner", position: "DT", age: "27",
         note: "Leading the Colts in sacks.",
         keystats: [
           {stat: "sacks", value: "5.5"},
-          {stat: "solo", value: "22" }
+          {stat: "solo", value: "25" }
           ], },
       {id: "2", name: "Michael Pittman", position: "WR", age: "24",
       note: "Leading the WR group in yds.",
       keystats: [
-        {stat: "rec", value: "61"},
-        {stat: "yds", value: "603"},
+        {stat: "rec", value: "67"},
+        {stat: "yds", value: "678"},
         {stat: "tds", value: "1"},
-        {stat: "y/r", value: "9.9"}
+        {stat: "y/r", value: "10.1"}
         ], }
     ];
   rookies = [
     {id: "0", name: "Alec Pierce", position: "WR", age: "22",
     note: "Out of Cincinnati having a great rookie year.",
     keystats: [
-      {stat: "rec", value: "25"},
-      {stat: "recYds", value: "396"},
-      {stat: "avg", value: "15.8"},
+      {stat: "rec", value: "28"},
+      {stat: "recYds", value: "424"},
+      {stat: "yds/rec", value: "15.1"},
       {stat: "td", value: "1"}
       ], },
     {id: "1", name: "Jelani Woods", position: "TE", age: "23",
@@ -78,7 +78,7 @@ export class PlayerListComponent implements OnInit {
     keystats: [
       {stat: "rec", value: "7"},
       {stat: "recYds", value: "79"},
-      {stat: "avg", value: "11.3"},
+      {stat: "yds/rec", value: "11.3"},
       {stat: "td", value: "3"}
       ], },
     {id: "2", name: "Rodney Thomas II", position: "LB", age: "24",
