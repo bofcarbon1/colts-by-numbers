@@ -38,7 +38,12 @@ export class ProjectComponent implements OnInit {
         { "id" : "15", "name" : "HP", "year" : "2013", "note" : "Enhanced an e-Commerce web app using .NET, MVC, JavaScript, JQuery, ", "type" : "web" },
         { "id" : "20", "name" : "DXC", "year" : "2018", "note" : "Enhanced UI for Medicaid web app using Angular 4 with Node, .NET API ", "type" : "web" },
         { "id" : "21", "name" : "FiServ", "year" : "2019", "note" : "Enhanced education loan web app using Angular 7, SQL Server", "type" : "web" },
-        { "id" : "24", "name" : "My Work", "year" : "2020", "note" : "Built Python numpy, Matplolib stat graphs for web using Django/Angular 9, MySQL", "type" : "web" }
+        { "id" : "24", "name" : "Root9b", "year" : "2020", "note" : "Built security software, .NET Core 3.1, SQL Server", "type" : "web" },
+        { "id" : "25", "name" : "American Well", "year" : "2021", "note" : "Built video Doctor visit prep with Angular Material, Java", "type" : "web" },
+        { "id" : "26", "name" : "My Apps", "year" : "2021", "note" : "Built Colts By Numbers with Python numpy, Matplolib stat graphs for web using Django/Angular 9, MySQL", "type" : "web" },
+        { "id" : "27", "name" : "1st Technologies", "year" : "2022", "note" : "Built sports wagering microservices using C#.NET 5, Kafka, gRPC, Postgre SQL", "type" : "web" },
+        { "id" : "28", "name" : "My Apps", "year" : "2022", "note" : "Built microservices using Java Spring Boot, RabbitMQ, Postgre SQL", "type" : "web" }
+
 
       ]);
     this.projectParsed = JSON.parse(projectString);

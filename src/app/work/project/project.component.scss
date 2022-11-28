@@ -19,6 +19,10 @@ p {
   margin: 1%;
 }
 
+::ng-deep mat-table {
+  max-width:100%;
+}
+
 .main-img{
   object-fit: cover; /*this makes the image in src fit to the size specified below*/
   width: 20%; /* Here you can use wherever you want to specify the width and also the height of the <img>*/
@@ -49,6 +53,7 @@ div {
 .box1 {
   max-height:75%;
   min-height: 35%;
+  max-width:100%;
   flex:1 1 75%;
   background-image: linear-gradient(gold, black);
 }
@@ -83,5 +88,10 @@ div {
   border-color: white;
 }
 
+mat-table {
+  width:100%;
+}
 
-
+mat-row {
+  background-image: linear-gradient(gold, black);
+}

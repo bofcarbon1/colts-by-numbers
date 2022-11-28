@@ -7,10 +7,13 @@ a {
     color: white;
 }
 
-::ng-deep mat-table {
-    font-size: .5 em;
+mat-table {
+    font-size: 1.5 em;
 }
 
+mat-row {
+    background-image: linear-gradient(rgb(118, 196, 238), black);
+}
 
 
 h3 {
