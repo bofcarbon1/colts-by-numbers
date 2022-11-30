@@ -95,3 +95,15 @@ mat-table {
 mat-row {
   background-image: linear-gradient(gold, black);
 }
+
+.mat-column-Project {
+  flex: 0 0 20%;
+}
+
+.mat-column-Year {
+  flex: 0 0 10%;
+}
+
+.mat-column-Notes {
+  flex: 0 0 70%;
+}
