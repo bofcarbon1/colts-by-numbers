@@ -3,13 +3,14 @@
      My Work:&nbsp;&nbsp;
        <div style="border: 1px solid whitesmoke ">
          <a routerLink="/home">&nbsp;Site-Home&nbsp;</a>
+         <a routerLink="/skill">&nbsp;Skills&nbsp;</a>
          <a routerLink="/project">&nbsp;Project-History&nbsp;</a>
        </div>
    </mat-toolbar-row>
- </mat-toolbar>
- <div flex layout="row">
-   <div layout="column" flex>
-     <div class="box1">
+</mat-toolbar>
+<div flex layout="row">
+  <div layout="column" flex>
+    <div class="box1">
       <span>
         <p>Providing web apps, services & database feature development for various businesses.</p>
         <p>
@@ -25,17 +26,24 @@
         <p>{{email}}</p>
       </span>
        <img class="main-img" mat-card-image src="../../assets/images/dilbert.png" />
-     </div>
-     <div class="box2">
-       <mat-card flex="100" layout-margin layout-padding layout-align="center stretch" >
-         <mat-card-header>
-           <div mat-card-avatar class="example-header-image"></div>
-           <mat-card-title>The Site</mat-card-title>
-           <mat-card-subtitle>IT Project Work</mat-card-subtitle>
-         </mat-card-header>
-           <img class="main-img" mat-card-image src="../../assets/images/undercon.png" />
-         <mat-card-content>
-         </mat-card-content>
+    </div>
+    <div class="box2">
+      <mat-card flex="100" layout-margin layout-padding layout-align="center stretch" >
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Current Work</mat-card-title>
+          <mat-card-subtitle>API & Microservices Focus</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <img class="small-img" mat-card-image src="../../assets/images/undercon.png" />
+          <p>Building microservices with Java Spring Boot. Coding in IntelliJ IDEA.
+             Messaging tool is Kafka. Data persisted to Postgre DB. Web UI is in React.
+             Deployment process is JAR to Docker image to container with Helm and OpenShift.
+             <br/><br/>
+             In partnership with Maven Wave on project to migrate existing applications to
+             OpenShift using Helm. 
+          </p>
+        </mat-card-content>
        </mat-card>
      </div>
      <div class="box3">

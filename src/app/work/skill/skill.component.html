@@ -1,0 +1,53 @@
+<mat-toolbar class="mat-toolbar">
+    <mat-toolbar-row>
+      My Skills:&nbsp;&nbsp;
+        <div style="border: 1px solid whitesmoke ">
+          <a routerLink="/home">&nbsp;Site-Home&nbsp;</a>
+          <a routerLink="/work">&nbsp;Work-Home&nbsp;</a>
+          <a routerLink="/project">&nbsp;Project-History&nbsp;</a>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
+<div flex layout="row">
+    <div layout="column" flex>
+        <div class="box1">
+            <mat-tab-group headerPosition="below">
+              <mat-tab class="myTab" label=".NET">
+                <div class="myTabContent">
+                  <img class="main-img" mat-card-image src="../../assets/images/undercon.png" />
+                  <p>
+                    With 15 years of .NET web API experience...
+                    <br/>
+                    Details to follow.
+                   <!-- <a style="color: black; font-weight: bold;" href="https://www.youtube.com/watch?v=ce13PozKFfg">Colts at 49ers Game 7</a>
+                   -->
+                  </p>
+                </div>
+              </mat-tab>
+              <mat-tab label="Java">
+                <div class="myTabContent">
+                  <img class="main-img" mat-card-image src="../../assets/images/undercon.png" />
+                  <p>
+                    With 8 years of Java overall and 5 years of Java Spring Boot.
+                    <br/>
+                    Includes Kafka, Kubernetes, OpenShift, Postgres and more.
+                    <br/>
+                  </p>
+                </div>
+              </mat-tab>
+              <mat-tab label="Angular">
+                <div class="myTabContent">
+                  <img class="main-img" mat-card-image src="../../assets/images/undercon.png" />
+                  <p>5 years of Angular up to verson 13
+                    <br/>
+                    Includes Angular Material, Node and Express
+                  </p>
+                </div>
+              </mat-tab>
+            </mat-tab-group>
+          </div>
+        <div class="box3">
+            All rights reserved Brian Quinn
+        </div>
+    </div>
+</div>

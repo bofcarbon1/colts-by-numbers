@@ -29,6 +29,7 @@ import { NgImageSliderModule } from 'ng-image-slider';
 import { DefenseComponent } from './team/defense/defense.component';
 import { PlayerDefenseComponent } from './player/defense/defense.component';
 import { CdkColumnDef } from '@angular/cdk/table';
+import { SkillComponent } from './work/skill/skill.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { CdkColumnDef } from '@angular/cdk/table';
     OffenseComponent,
     PlayerOffenseComponent,
     DefenseComponent,
-    PlayerDefenseComponent
+    PlayerDefenseComponent,
+    SkillComponent
   ],
   imports: [
     BrowserModule,

@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { WorkComponent } from './work/work.component';
+import { SkillComponent } from './work/skill/skill.component';
 import { ProjectComponent } from './work/project/project.component';
 import { HomeColtsComponent } from './home-colts/home-colts.component';
 import { PlayerListComponent } from './player/player-list/player-list.component';
@@ -17,6 +18,7 @@ const routes: Routes = [
   //{ path: '', pathMatch: 'full', redirectTo: 'home'},
   { path: 'home',  component: HomeComponent  },
   { path: 'work',  component: WorkComponent},
+  { path: 'skill',  component: SkillComponent},
   { path: 'project',  component: ProjectComponent},
   { path: 'home-colts', component: HomeColtsComponent},
   { path: 'player', component: PlayerListComponent },
