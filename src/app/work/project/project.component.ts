@@ -43,7 +43,7 @@ export class ProjectComponent implements OnInit {
         { "id" : "26", "name" : "My Apps", "year" : "2021", "note" : "Built Colts By Numbers with Python numpy, Matplolib stat graphs for web using Django/Angular 9, MySQL", "type" : "web" },
         { "id" : "27", "name" : "1st Technologies", "year" : "2022", "note" : "Built sports wagering microservices using C#.NET 5, Kafka, gRPC, Postgre SQL", "type" : "web" },
         { "id" : "28", "name" : "My Apps", "year" : "2023", "note" : "Building gaming app microservices using Java Spring Boot, RabbitMQ, Postgre SQL, Redhat OpenShift", "type" : "web" },
-        { "id" : "29", "name" : "Maven Wave", "year" : "2023", "note" : "Migrating Java Spring Boot apps from PCF to Redhat OpenShift with Helm", "type" : "web" }
+        { "id" : "29", "name" : "Maven Wave", "year" : "2023", "note" : "Java Spring Boot and .NET apps", "type" : "web" }
 
 
       ]);
