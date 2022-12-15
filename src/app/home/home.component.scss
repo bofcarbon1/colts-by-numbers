@@ -26,6 +26,14 @@ p {
   padding: .5%;
 }
 
+.avatar-img{
+  object-fit: cover; /*this makes the image in src fit to the size specified below*/
+  width: 100%; /* Here you can use wherever you want to specify the width and also the height of the <img>*/
+  height: 100%;
+  margin: 1%;
+  padding: .5%;
+}
+
 div {
   border: 2px solid darkblue;
 }
