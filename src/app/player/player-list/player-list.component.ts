@@ -19,16 +19,16 @@ export class PlayerListComponent implements OnInit {
       {id: "0", name: "Dayo Odeyingbo", position: "DE", age: "23",
       note: "In his 2nd year healthy and picking up speed.",
       keystats: [
-        {stat: "sacks", value: "3.5"},
-        {stat: "solo", value: "13"},
-        {stat: "tfl", value: "3"}
+        {stat: "sacks", value: "5"},
+        {stat: "solo", value: "15"},
+        {stat: "tfl", value: "4"}
         ], },
       {id: "1", name: "Zaire Franklin", position: "LB", age: "26",
       note: "Leading the Colts in total tackles in 2022.",
       keystats: [
-        {stat: "sacks", value: "1.0"},
-        {stat: "solo", value: "85"},
-        {stat: "tfl", value: "9"}
+        {stat: "sacks", value: "2"},
+        {stat: "solo", value: "90"},
+        {stat: "tfl", value: "10"}
         ], },
       {id: "2", name: "Grover Stewart", position: "CB", age: "31",
       note: "Grover is always in the trenches for the Colts",
@@ -51,14 +51,14 @@ export class PlayerListComponent implements OnInit {
         note: "Leading the Colts in sacks with a current projection of 12.",
         keystats: [
           {stat: "sacks", value: "9.5"},
-          {stat: "solo", value: "16" },
-          {stat: "tfl", value: "7" }
+          {stat: "solo", value: "18" },
+          {stat: "tfl", value: "8" }
           ], },
       {id: "2", name: "Michael Pittman", position: "WR", age: "24",
       note: "Leading the WR group in yds.",
       keystats: [
-        {stat: "rec", value: "86"},
-        {stat: "yds", value: "815"},
+        {stat: "rec", value: "90"},
+        {stat: "yds", value: "854"},
         {stat: "tds", value: "2"},
         {stat: "y/r", value: "9.5"}
         ], }
@@ -67,24 +67,24 @@ export class PlayerListComponent implements OnInit {
     {id: "0", name: "Alec Pierce", position: "WR", age: "22",
     note: "Out of Cincinnati having a great rookie year.",
     keystats: [
-      {stat: "rec", value: "32"},
-      {stat: "recYds", value: "510"},
-      {stat: "yds/rec", value: "15.9"},
+      {stat: "rec", value: "35"},
+      {stat: "recYds", value: "536"},
+      {stat: "yds/rec", value: "15.3"},
       {stat: "td", value: "2"}
       ], },
     {id: "1", name: "Jelani Woods", position: "TE", age: "23",
     note: "Out of Oklahoma State the big man making fast adjusments to the NFL.",
     keystats: [
-      {stat: "rec", value: "18"},
-      {stat: "recYds", value: "241"},
-      {stat: "yds/rec", value: "13.4"},
+      {stat: "rec", value: "21"},
+      {stat: "recYds", value: "284"},
+      {stat: "yds/rec", value: "13.5"},
       {stat: "td", value: "3"}
       ], },
     {id: "2", name: "Rodney Thomas II", position: "LB", age: "24",
       note: "Out of Yale in the Ivy League adopting quickly to the NFL level.",
       keystats: [
-        {stat: "solo", value: "21"},
-        {stat: "int", value: "2"}
+        {stat: "solo", value: "26"},
+        {stat: "int", value: "3"}
         ], }
   ]
   displayedColumns = ['Name', 'Position', 'Info'];
