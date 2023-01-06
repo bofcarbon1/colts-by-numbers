@@ -20,20 +20,20 @@ export class PlayerListComponent implements OnInit {
       note: "In his 2nd year healthy and picking up speed.",
       keystats: [
         {stat: "sacks", value: "5"},
-        {stat: "solo", value: "15"},
+        {stat: "solo", value: "16"},
         {stat: "tfl", value: "4"}
         ], },
       {id: "1", name: "Zaire Franklin", position: "LB", age: "26",
       note: "Leading the Colts in total tackles in 2022.",
       keystats: [
         {stat: "sacks", value: "2"},
-        {stat: "solo", value: "90"},
+        {stat: "solo", value: "97"},
         {stat: "tfl", value: "10"}
         ], },
       {id: "2", name: "Grover Stewart", position: "CB", age: "31",
       note: "Grover is always in the trenches for the Colts",
       keystats: [
-        {stat: "solo", value: "42"},
+        {stat: "solo", value: "43"},
         {stat: "sacks", value: "4"},
         {stat: "tfl", value: "9"}
         ], }
@@ -57,9 +57,9 @@ export class PlayerListComponent implements OnInit {
       {id: "2", name: "Michael Pittman", position: "WR", age: "24",
       note: "Leading the WR group in yds.",
       keystats: [
-        {stat: "rec", value: "90"},
-        {stat: "yds", value: "854"},
-        {stat: "tds", value: "2"},
+        {stat: "rec", value: "96"},
+        {stat: "yds", value: "895"},
+        {stat: "tds", value: "3"},
         {stat: "y/r", value: "9.5"}
         ], }
     ];
@@ -67,23 +67,23 @@ export class PlayerListComponent implements OnInit {
     {id: "0", name: "Alec Pierce", position: "WR", age: "22",
     note: "Out of Cincinnati having a great rookie year.",
     keystats: [
-      {stat: "rec", value: "35"},
-      {stat: "recYds", value: "536"},
-      {stat: "yds/rec", value: "15.3"},
+      {stat: "rec", value: "38"},
+      {stat: "recYds", value: "551"},
+      {stat: "yds/rec", value: "14.5"},
       {stat: "td", value: "2"}
       ], },
     {id: "1", name: "Jelani Woods", position: "TE", age: "23",
     note: "Out of Oklahoma State the big man making fast adjusments to the NFL.",
     keystats: [
-      {stat: "rec", value: "21"},
-      {stat: "recYds", value: "284"},
-      {stat: "yds/rec", value: "13.5"},
+      {stat: "rec", value: "24"},
+      {stat: "recYds", value: "303"},
+      {stat: "yds/rec", value: "12.6"},
       {stat: "td", value: "3"}
       ], },
     {id: "2", name: "Rodney Thomas II", position: "LB", age: "24",
       note: "Out of Yale in the Ivy League adopting quickly to the NFL level.",
       keystats: [
-        {stat: "solo", value: "26"},
+        {stat: "solo", value: "32"},
         {stat: "int", value: "3"}
         ], }
   ]
