@@ -20,20 +20,20 @@ export class PlayerListComponent implements OnInit {
       note: "In his 2nd year healthy and picking up speed.",
       keystats: [
         {stat: "sacks", value: "5"},
-        {stat: "solo", value: "16"},
-        {stat: "tfl", value: "4"}
+        {stat: "solo", value: "18"},
+        {stat: "tfl", value: "5"}
         ], },
       {id: "1", name: "Zaire Franklin", position: "LB", age: "26",
       note: "Leading the Colts in total tackles in 2022.",
       keystats: [
-        {stat: "sacks", value: "2"},
-        {stat: "solo", value: "97"},
-        {stat: "tfl", value: "10"}
+        {stat: "sacks", value: "3"},
+        {stat: "solo", value: "102"},
+        {stat: "tfl", value: "12"}
         ], },
       {id: "2", name: "Grover Stewart", position: "CB", age: "31",
       note: "Grover is always in the trenches for the Colts",
       keystats: [
-        {stat: "solo", value: "43"},
+        {stat: "solo", value: "44"},
         {stat: "sacks", value: "4"},
         {stat: "tfl", value: "9"}
         ], }
@@ -57,34 +57,34 @@ export class PlayerListComponent implements OnInit {
       {id: "2", name: "Michael Pittman", position: "WR", age: "24",
       note: "Leading the WR group in yds.",
       keystats: [
-        {stat: "rec", value: "96"},
-        {stat: "yds", value: "895"},
-        {stat: "tds", value: "3"},
-        {stat: "y/r", value: "9.5"}
+        {stat: "rec", value: "99"},
+        {stat: "yds", value: "925"},
+        {stat: "tds", value: "4"},
+        {stat: "y/r", value: "9.3"}
         ], }
     ];
   rookies = [
     {id: "0", name: "Alec Pierce", position: "WR", age: "22",
     note: "Out of Cincinnati having a great rookie year.",
     keystats: [
-      {stat: "rec", value: "38"},
-      {stat: "recYds", value: "551"},
+      {stat: "rec", value: "41"},
+      {stat: "recYds", value: "593"},
       {stat: "yds/rec", value: "14.5"},
       {stat: "td", value: "2"}
       ], },
     {id: "1", name: "Jelani Woods", position: "TE", age: "23",
     note: "Out of Oklahoma State the big man making fast adjusments to the NFL.",
     keystats: [
-      {stat: "rec", value: "24"},
-      {stat: "recYds", value: "303"},
-      {stat: "yds/rec", value: "12.6"},
+      {stat: "rec", value: "25"},
+      {stat: "recYds", value: "312"},
+      {stat: "yds/rec", value: "12.5"},
       {stat: "td", value: "3"}
       ], },
     {id: "2", name: "Rodney Thomas II", position: "LB", age: "24",
       note: "Out of Yale in the Ivy League adopting quickly to the NFL level.",
       keystats: [
-        {stat: "solo", value: "32"},
-        {stat: "int", value: "3"}
+        {stat: "solo", value: "34"},
+        {stat: "int", value: "4"}
         ], }
   ]
   displayedColumns = ['Name', 'Position', 'Info'];
