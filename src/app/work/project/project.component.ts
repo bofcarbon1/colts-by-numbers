@@ -42,8 +42,8 @@ export class ProjectComponent implements OnInit {
         { "id" : "25", "name" : "American Well", "year" : "2021", "note" : "Built video Doctor visit prep with Angular Material, Java", "type" : "web" },
         { "id" : "26", "name" : "My Apps", "year" : "2021", "note" : "Built Colts By Numbers with Python numpy, Matplolib stat graphs for web using Django/Angular 9, MySQL", "type" : "web" },
         { "id" : "27", "name" : "1st Technologies", "year" : "2022", "note" : "Built sports wagering microservices using C#.NET 5, Kafka, gRPC, Postgre SQL", "type" : "web" },
-        { "id" : "28", "name" : "My Apps", "year" : "2023", "note" : "Building gaming app microservices using Java Spring Boot, RabbitMQ, Postgre SQL, deploy", "type" : "web" },
-        { "id" : "29", "name" : "Maven Wave", "year" : "2023", "note" : "Java Spring Boot and .NET apps", "type" : "web" }
+        { "id" : "28", "name" : "My Apps", "year" : "2023", "note" : "Converting Colts By Numbers Python to FastAPI & microservices using Python, Kafka/RabbitMQ, Postgre SQL, OpenAPI", "type" : "web" },
+        { "id" : "29", "name" : "FlyWheel-Digital", "year" : "2023", "note" : "eCommerce microservices using Java Spring Boot and AWS", "type" : "web" }
 
 
       ]);
