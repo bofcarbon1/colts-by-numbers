@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Sort } from '@angular/material/sort';
+import { Sort, SortDirection } from '@angular/material/sort';
 
 
 @Component({
@@ -20,6 +20,7 @@ export class ProjectComponent implements OnInit {
 
   ngOnInit(): void {
     this.getProjects();
+    this.sortData({active:'Year', direction:'desc'});
   }
 
   ngOnDestroy(): void {
@@ -56,7 +57,7 @@ export class ProjectComponent implements OnInit {
     const dataAsc = this.projectParsed.slice();
     const dataDesc = this.projectParsed.slice();
     //if (!sort.active || sort.direction === '') {
-    console.log("sortOrder: ", sort.direction);
+    //console.log("sortOrder: ", sort.direction);
     if(sort.direction === 'asc') {
       this.sortedData = dataAsc;
     } else {

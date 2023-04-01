@@ -13,7 +13,8 @@
      <div class="box1">
       <mat-table [dataSource]="allprojects" class="mat-elevation-z8"
        (matSortChange)="sortData($event)"
-        matSort matSortActive="Year" matSortDirection="desc" matSortDisableClear>
+        matSort matSortActive="Year" matSortDirection="desc"
+        matSortDisableClear>
         <ng-container matColumnDef="Project">
           <mat-header-cell *matHeaderCellDef>Project</mat-header-cell>
           <mat-cell *matCellDef="let project">{{project.name}}</mat-cell>
