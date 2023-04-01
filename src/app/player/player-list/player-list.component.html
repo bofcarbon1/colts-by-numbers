@@ -20,7 +20,7 @@
             <mat-cell *matCellDef="let tops">{{tops.name}}</mat-cell>
           </ng-container>
           <ng-container matColumnDef="Position">
-            <mat-header-cell *matHeaderCellDef> Position </mat-header-cell>
+            <mat-header-cell *matHeaderCellDef> Pos </mat-header-cell>
             <mat-cell *matCellDef="let tops">{{tops.position}}</mat-cell>
           </ng-container>
           <ng-container matColumnDef="Info">
@@ -39,13 +39,13 @@
       </div>
       <div class="container">
         <h3>&nbsp;&nbsp;Top Numbers</h3>
-        <mat-table #table [dataSource]="tops" class="mat-elevation-z8">
+        <mat-table #table [dataSource]="tops" >
           <ng-container matColumnDef="Name">
             <mat-header-cell *matHeaderCellDef> Name </mat-header-cell>
             <mat-cell *matCellDef="let tops">{{tops.name}}</mat-cell>
           </ng-container>
           <ng-container matColumnDef="Position">
-            <mat-header-cell *matHeaderCellDef> Position </mat-header-cell>
+            <mat-header-cell *matHeaderCellDef> Pos </mat-header-cell>
             <mat-cell *matCellDef="let tops">{{tops.position}}</mat-cell>
           </ng-container>
           <ng-container matColumnDef="Info">
@@ -70,7 +70,7 @@
             <mat-cell *matCellDef="let rookies">{{rookies.name}}</mat-cell>
           </ng-container>
           <ng-container matColumnDef="Position">
-            <mat-header-cell *matHeaderCellDef> Position </mat-header-cell>
+            <mat-header-cell *matHeaderCellDef> Pos </mat-header-cell>
             <mat-cell *matCellDef="let rookies">{{rookies.position}}</mat-cell>
           </ng-container>
           <ng-container matColumnDef="Info">
