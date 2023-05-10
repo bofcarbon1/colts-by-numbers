@@ -64,27 +64,26 @@ export class PlayerListComponent implements OnInit {
         ], }
     ];
   rookies = [
-    {id: "0", name: "Alec Pierce", position: "WR", age: "22",
-    note: "Out of Cincinnati having a great rookie year.",
+    {id: "0", name: "Anthony Richardson", position: "QB", age: "20",
+    note: "Out of Florida broke records in the NFL combine.",
     keystats: [
-      {stat: "rec", value: "41"},
-      {stat: "recYds", value: "593"},
-      {stat: "yds/rec", value: "14.5"},
-      {stat: "td", value: "2"}
+      {stat: "pass/yds", value: "0"},
+      {stat: "rush/yds", value: "0"},
+      {stat: "tds", value: "0"},
+      {stat: "QBR", value: "0"}
       ], },
-    {id: "1", name: "Jelani Woods", position: "TE", age: "23",
-    note: "Out of Oklahoma State the big man making fast adjusments to the NFL.",
+    {id: "1", name: "Josh Downs", position: "WR", age: "21",
+    note: "Out of North Carolina already working out with Anthony Richardson.",
     keystats: [
-      {stat: "rec", value: "25"},
-      {stat: "recYds", value: "312"},
-      {stat: "yds/rec", value: "12.5"},
-      {stat: "td", value: "3"}
+      {stat: "rec/att", value: "0"},
+      {stat: "rec/yds", value: "0"},
+      {stat: "tds", value: "0"}
       ], },
-    {id: "2", name: "Rodney Thomas II", position: "LB", age: "24",
-      note: "Out of Yale in the Ivy League adopting quickly to the NFL level.",
+    {id: "2", name: "Julius Brents", position: "CB", age: "24",
+      note: "Out of Kansas State a boundary corner, length, quickness, speed.",
       keystats: [
-        {stat: "solo", value: "34"},
-        {stat: "int", value: "4"}
+        {stat: "solo", value: "0"},
+        {stat: "int", value: "0"}
         ], }
   ]
   displayedColumns = ['Name', 'Position', 'Info'];
@@ -96,9 +95,9 @@ export class PlayerListComponent implements OnInit {
   ngOnInit(): void {
     this.imageObject = [
       {
-        image: '../../assets/images/MRyan.jfif',
-        thumbImage:'../../assets/images/MRyan.jfif',
-        title: 'Matt Ryan 2022 Colts QB'
+        image: '../../assets/images/ARichardson.jpg',
+        thumbImage:'../../assets/images/ARichardson.jpg',
+        title: 'Anthony Richardson 2023 Colts QB'
       },
       {
         image: '../../assets/images/stats/ryan_2022_pass_ratings_graph_img.svg',
